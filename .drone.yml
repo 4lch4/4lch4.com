@@ -1,0 +1,24 @@
+type: docker
+kind: pipeline
+name: Scan & Push to Vercel
+
+steps:
+  - name: run gitleaks
+    image: plugins/gitleaks
+    settings:
+      path: .
+
+  - name: deploy
+    image: docker.io/kameshsampath/drone-vercel-deploy
+    pull: never
+    settings:
+      log_level: debug
+      # valid values are production, development, preview
+      vercel_env: production
+      vercel_token:
+        from_secret: VERCEL_TOKEN
+      vercel_org_id:
+        from_secret: VERCEL_ORG_ID
+      vercel_project_id:
+        from_secret: VERCEL_PROJECT_ID
+      vercel_project_create: true
