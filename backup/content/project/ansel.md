@@ -1,9 +1,9 @@
 ---
-title: "Ansel"
+title: 'Ansel'
 date: 2022-03-16T14:37:13+06:00
 draft: false
 img: /images/project.jpg
-description: "Ansel is an API written in TypeScript using the KoaJS framework, providing endpoints to retrieve images/data from S3 buckets."
+description: 'Ansel is an API written in TypeScript using the KoaJS framework, providing endpoints to retrieve images/data from S3 buckets.'
 github: https://github.com/4lch4/Ansel
 featured: /ansel
 ---
@@ -212,4 +212,3 @@ OK
 [6]: https://www.backblaze.com/b2/cloud-storage.html
 [7]: https://aws.amazon.com/s3/
 [8]: https://github.com/artilleryio/artillery
-

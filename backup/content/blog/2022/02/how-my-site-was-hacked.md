@@ -33,7 +33,7 @@ _Relevant XKCD:_
 
 ### Defacing/Defacer
 
-> **Website defacement** is an attack on a website that changes the visual appearance of a [website](https://en.wikipedia.org/wiki/Website "Website") or a [web page](https://en.wikipedia.org/wiki/Web_page "Web page").
+> **Website defacement** is an attack on a website that changes the visual appearance of a [website](https://en.wikipedia.org/wiki/Website 'Website') or a [web page](https://en.wikipedia.org/wiki/Web_page 'Web page').
 
 Aside from the basic definition above, from Wikipedia, I think what happened is best described with the above XKCD comic. There are a wide variety of ways to make it look like a website was "hacked" when in reality it was just defaced, and none of the actual infrastructure involved in hosting the site was touched.
 

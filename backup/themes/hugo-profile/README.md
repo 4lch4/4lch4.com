@@ -14,22 +14,23 @@ A high performance and mobile first hugo template for personal portfolio and blo
 - Example Site: [hugo-profile.netlify.app](https://hugo-profile.netlify.app)
 
 # Features
+
 - Fully Responsive
 - Minimalist Design
 - SEO Friendly.
 - Light/Dark/auto
 - Taxonomies
 - [Color customization](https://github.com/gurusabarish/hugo-profile/wiki/Color-Customization)
-- Analytics Support 
+- Analytics Support
   - [Google Analytics](https://gohugo.io/templates/internal/#google-analytics)
 - Comment Support
   - [Disqus](https://gohugo.io/content-management/comments/)
 
-Technology used: Bootstrap, fontawesome 
+Technology used: Bootstrap, fontawesome
 
 # Requirements
-- Hugo Version 0.87.0 or higher
 
+- Hugo Version 0.87.0 or higher
 
 # How to use this template
 
@@ -37,15 +38,18 @@ Technology used: Bootstrap, fontawesome
 - [Direct deployment using netlify](#Direct-deployment-using-netlify)
 
 [For more details](https://github.com/gurusabarish/hugo-profile/wiki)
+
 ## Hugo theme
 
 - Install Hugo and create a site using `hugo new site my-site -f=yaml`
 - Clone this repo inside your themes folder
+
 ```
 cd themes
 git clone https://github.com/gurusabarish/hugo-profile.git
 ```
-- Create config.yaml (you can use `config.toml` too) inside root folder 
+
+- Create config.yaml (you can use `config.toml` too) inside root folder
 - Setup the configurations in `config.yaml`. [reference](https://github.com/gurusabarish/hugo-profile/blob/master/exampleSite/config.yaml)
 - You should have the mentioned (_inside the config file_) images in static folder to use them.
 
