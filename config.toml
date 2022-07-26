@@ -1,0 +1,96 @@
+baseURL = 'https://4lch4.com'
+languageCode = 'en-us'
+title = "4lch4 - Fullstack Engineer - NOC Engineer"
+theme = "4blist"
+enableEmoji = true
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+
+[languages]
+
+[languages.en]
+contentDir = "content/en"
+weight = 1
+languageName = "English"
+
+[languages.en.params]
+introTitle = "Heyo, I'm 4lch4! <i>(Al-kuh)</i>"
+introSubtitle = """
+  I'm just some guy who likes making and fixing things that usually involve a
+  keyboard and/or a mouse.<br/><br/>
+
+  For more information about myself, check out my <u><a href="/page/about">
+  About</a></u> page.
+"""
+# introSubtitle = """
+#   I was introduced to software development in 2009 when I was in high school and knew right away it's
+#   what I wanted to do for the rest of my life.
+#   <br/><br/>
+#   I graduated with a B.S. in <b>Information Technology - Programming</b> from <u><a href="https://uafs.edu/" target="_blank">
+#   University of Arkansas Fort Smith</a></u>, and I have been working as a software developer since.
+# """
+# introSubtitle = "I've been an unprofessional (<i>unpaid</i>) software developer since 2010 and a professional one (<i>paid</i>) since 2015."
+introPhoto = "/images/avatar.png"
+logo = "/images/4Blist-Logo.svg"
+
+[[languages.en.menu.main]]
+name = "Blog"
+url = "blog"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "About"
+url = "page/about/"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags"
+weight = 3
+
+[params]
+# Enable the darkmode toggle in header
+darkModeToggle = true
+
+# Enable search in header
+enableSearch = true
+copyright = "Copyright © 2022 - Devin W. Leaman / 4lch4 · All rights reserved"
+favicon = "/favicon.ico"
+
+# Color for the intro details and social links block, not applicable for dark mode
+# Supported values: Any color from TailwindCSS default colors
+# Reference: https://tailwindcss.com/docs/customizing-colors
+ascentColor = "bg-blue-100"
+
+# The page bundle that is shown on the front page
+frontBundle = "blog"
+
+[params.homepage.social]
+title = "Contact Me"
+description = "I'm always looking to talk/meet with new people and learn new things so don't hesitate to reach out!"
+twitter = "https://twitter.com/4lch4"
+linkedin = "https://linkedin.com/in/devin-leaman-49622429"
+github = "https://github.com/4lch4"
+facebook = "https://facebook.com/4lch4"
+youtube = "https://www.youtube.com/channel/UC4nN8hgq8jucdUaXnSWBOsw"
+instagram = "https://www.instagram.com/4lch4/"
+
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[build]
+writeStats = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+
+[markup.highlight]
+style = "dracula"
+
+[markup.goldmark.renderer]
+# Enable to include inline HTML
+unsafe = true

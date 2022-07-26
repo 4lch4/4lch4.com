@@ -1,0 +1,40 @@
+{
+  "name": "4lch4.com",
+  "displayName": "4lch4's Website",
+  "version": "1.0.1",
+  "description": "My personal website which serves as my homepage, blog, and portfolio.",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "homepage": "https://4lch4.com",
+  "bugs": {
+    "url": "https://git.4lch4.io/4lch4/4lch4.com/issues",
+    "email": "bugs@4lch4.email"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.4lch4.io:22022/4lch4/4lch4.com.git"
+  },
+  "scripts": {
+    "start": "hugo server --disableFastRender",
+    "build": "NODE_ENV=production hugo --gc",
+    "pretty": "prettier --write ."
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^2.1.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

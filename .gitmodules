@@ -1,0 +1,3 @@
+[submodule "themes/4blist"]
+	path = themes/4blist
+	url = https://git.4lch4.io/4lch4/4Blist.git
