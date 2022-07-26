@@ -48,6 +48,11 @@ name = "Tags"
 url = "tags"
 weight = 3
 
+[[languages.en.menu.main]]
+name = "Contact"
+url = "page/contact/"
+weight = 4
+
 [params]
 # Enable the darkmode toggle in header
 darkModeToggle = true

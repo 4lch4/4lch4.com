@@ -7,16 +7,33 @@ keywords: ['about-me', 'about', 'contact', 'whoami']
 type: about
 ---
 
-!!! warning WIP
+{{< tip >}}
+
 As of **2022-07-25T20:52:03-06:00**, this page is still a work in progress, so please bear that in mind.
 
-    If you have any comments, suggestions, w/e, feel free to [create an issue][5] or
+If you have any comments, suggestions, w/e, feel free to
+[create an issue](https://git.4lch4.io/4lch4/4lch4.com/issues) or reach out using any of the methods on my contact-info page.
 
-Heyo, my name is Devin but I go by 4lch4 online (_Pronounced Al-Kuh_). I'm just some guy who likes making and fixing things that usually involve a keyboard and/or a mouse.
+{{< /tip >}}
 
-On a more serious note, I was introduced to programming when I started high school by my favorite teacher of all time, Mr. Shin. I took every class possible with him while in high school to learn as much as possible before graduation.
+<!-- <aside class="admonition note">
+  <div class="note-icon">
+    {{partial "svg/exclamation.svg" (dict "size" "20px" ) }}
+  </div>
+  <div class="admonition-content">
+    As of **2022-07-25T20:52:03-06:00**, this page is still a work in progress, so please bear that in mind.
 
-After graduating, I moved to Arkansas to attend the [University of Arkansas at Fort Smith][1] and major in **Information Technology - Programming**.
+    If you have any comments, suggestions, w/e, feel free to [create an issue][5] or reach out using any of the methods on my contact-info page.
+  </div>
+</aside> -->
+
+Heyo, my name is Devin but I go by 4lch4 online (_Pronounced Al-Kuh_). I was introduced to programming when I started high school and realized while I wasn't the best at it, I really enjoyed doing it. That was 2009 and I still find myself loving software development, programming, whatever you wanna call it.
+
+These days I work full time as a Sr. Operations Engineer at J.B. Hunt where I usually develop & support software & infrastructure to help operations run as smoothly as possible.
+
+<!-- So, I took every class possible with him while in high school to learn as much as possible before graduation. After graduating, I moved to Arkansas to attend the [University of Arkansas at Fort Smith][1] and major in **Information Technology - Programming**.
+
+Once I got my degree I moved to the Bay Area in Northern California and got a job in Napa Valley as a Jr. Software Test Engineer. -->
 
 ## Education
 
