@@ -9,7 +9,7 @@ steps:
       path: .
 
   - name: deploy
-    image: kameshsampath/drone-vercel-deploy
+    image: docker.io/4lch4/drone-vercel-deploy
     pull: never
     settings:
       log_level: debug
