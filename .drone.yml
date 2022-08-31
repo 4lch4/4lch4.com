@@ -8,7 +8,7 @@ trigger:
       - promote
 
 workspace:
-  path: /drone/4lch4.link
+  path: /drone/4lch4.com
 
 steps:
   - name: Build and Deploy
@@ -34,7 +34,7 @@ trigger:
       - promote
 
 workspace:
-  path: /drone/4lch4.link
+  path: /drone/4lch4.com
 
 steps:
   - name: Build and Deploy
