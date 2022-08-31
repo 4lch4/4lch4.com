@@ -21,9 +21,9 @@
   text-align: right;
 }
 
-.education-section h1 > span {
-  margin-top: -55px; /* Size of fixed header */
-  padding-bottom: 55px;
+.education-section h1 > span{
+  margin-top: -55px;  /* Size of fixed header */
+  padding-bottom:55px;
   display: block;
 }
 
@@ -110,7 +110,7 @@
   border: none;
   color: #212529;
 }
-.education-section .taken-courses th.course-name-header {
+.education-section .taken-courses th.course-name-header{
   width: 50%;
 }
 .education-section .taken-courses .hidden-course {

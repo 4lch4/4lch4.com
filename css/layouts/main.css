@@ -15,7 +15,7 @@ Yellow:  #FFC212
 
 body {
   background-color: #f9fafc;
-  font-family: 'Muli';
+  font-family: "Muli";
 }
 
 h1,
@@ -50,17 +50,17 @@ a:hover {
 }
 
 .btn-dark {
-  background-color: #3c4858 !important;
-  border-color: #3c4858 !important;
-  color: #e5e9f2 !important;
-  transition: all 0.3s ease-out !important;
+  background-color: #3c4858!important;
+  border-color: #3c4858!important;
+  color: #e5e9f2!important;
+  transition: all 0.3s ease-out!important;
 }
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #248aaa !important;
-  border-color: #248aaa !important;
-  transition: all 0.3s ease-out !important;
+  background-color: #248aaa!important;
+  border-color: #248aaa!important;
+  transition: all 0.3s ease-out!important;
 }
 
 .btn-outline-info {
@@ -238,8 +238,7 @@ td {
   background: unset;
 }
 
-.gist table td,
-.gist table tc {
+.gist table td, .gist table tc{
   border-right: 1px solid #eee;
 }
 
@@ -376,12 +375,12 @@ mark {
   background-color: #e5e9f2;
 }
 
-.footer #disclaimer {
+.footer #disclaimer{
   color: #8392a5 !important;
   text-align: justify;
 }
-.footer #disclaimer > strong {
-  color: #c0ccda !important;
+.footer #disclaimer>strong{
+  color: #c0ccda!important;
 }
 
 .footer #theme {

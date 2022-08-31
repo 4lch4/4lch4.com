@@ -106,7 +106,7 @@
 }
 
 .subtree:before {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   position: absolute;
@@ -124,7 +124,7 @@ ul > ul {
 }
 
 .subtree ul:before {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   position: absolute;
@@ -135,7 +135,7 @@ ul > ul {
 }
 
 .subtree li:before {
-  content: '';
+  content: "";
   display: block;
   width: 20px;
   height: 0;
