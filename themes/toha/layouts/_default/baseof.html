@@ -3,13 +3,15 @@
   <head>
     <title>{{ .Page.Title }}</title>
     <!------ ADD COMMON HEADERS -------->
-    {{- partial "header.html" . -}} {{ template "_internal/opengraph.html" . }}
+    {{- partial "header.html" . -}}
+    {{ template "_internal/opengraph.html" . }}
 
     <!------ ADD PAGE SPECIFIC HEADERS ------->
     {{ block "header" . }} {{ end }}
 
     <!--================= add analytics if enabled =========================-->
     {{- partial "analytics.html" . -}}
+
   </head>
 
   <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
@@ -28,8 +30,8 @@
     </div>
 
     <!------- ADD FOOTER ------------>
-    {{ $footerTemplate:= site.Params.footer.template | default "footer.html" }} {{- partial
-    $footerTemplate . -}}
+    {{ $footerTemplate:= site.Params.footer.template | default "footer.html" }}
+    {{- partial $footerTemplate . -}}
 
     <!------- ADD COMMON SCRIPTS ------->
     {{ partial "scripts.html" . }}
@@ -39,5 +41,6 @@
 
     <!------ IF WANTED, ADD SUPPORT LINKS -------->
     {{- partial "misc/support.html" . -}}
+
   </body>
 </html>

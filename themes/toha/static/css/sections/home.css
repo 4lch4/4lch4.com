@@ -45,8 +45,7 @@
   margin-bottom: 10px;
 }
 
-.home .greeting,
-.home .greeting-subtitle {
+.home .greeting, .home .greeting-subtitle {
   color: #f9fafc;
 }
 
@@ -68,7 +67,7 @@
 
 .bounce {
   -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
 }
 
 @-webkit-keyframes bounce {

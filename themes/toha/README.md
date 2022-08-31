@@ -34,6 +34,7 @@ A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist desi
   - GoatCounter
   - counter.dev
   - Google Analytics
+  - Matomo/Piwik
 - Comment Support
   - [Disqus](https://disqus.com/)
   - [Valine](https://valine.js.org/)
@@ -107,7 +108,7 @@ baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
 title: "John's Blog"
-theme: 'toha'
+theme: "toha"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -127,9 +128,9 @@ markup:
 # client-side JavaScript search
 outputs:
   home:
-    - HTML
-    - RSS
-    - JSON
+  - HTML
+  - RSS
+  - JSON
 
 # Enable global emoji support
 enableEmoji: true
@@ -146,14 +147,14 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
-  # specify whether you want the language flags to be displayed.
+  # specify whether you want the language flags to be displayed. 
   showFlags: true
 
-  # Provide newsletter configuration.
+  # Provide newsletter configuration. 
   # This feature has been implemented for Mailchimp only for now.
   # You can also hide it from the footer.
   newsletter:
-    # specify whether you want to display the newsletter form
+    # specify whether you want to display the newsletter form 
     enable: true
     # specify which newsletter provider you want to use
     provider: mailchimp
