@@ -1,0 +1,49 @@
+---
+name: Deploy Website (Development)
+kind: pipeline
+type: docker
+trigger:
+  event: 
+    exclude:
+      - promote
+
+workspace:
+  path: /drone/4lch4.link
+
+steps:
+  - name: Build and Deploy
+    image: node:lts-alpine
+    environment:
+      # Responsible for the -S parameter.
+      VERCEL_OWNER:
+        from_secret: VERCEL_OWNER
+      VERCEL_TOKEN:
+        from_secret: VERCEL_TOKEN
+    commands:
+      - npm i --location=global vercel
+      - vercel pull -S $VERCEL_OWNER -t $VERCEL_TOKEN --environment=development -y
+      - vercel build -S $VERCEL_OWNER -t $VERCEL_TOKEN
+      - vercel deploy -S $VERCEL_OWNER -t $VERCEL_TOKEN --prebuilt
+---
+name: Deploy Website (Production)
+kind: pipeline
+type: docker
+trigger:
+  event: 
+    include:
+      - promote
+
+workspace:
+  path: /drone/4lch4.link
+
+steps:
+  - name: Build and Deploy
+    image: node:lts-alpine
+    environment:
+      VERCEL_TOKEN:
+        from_secret: VERCEL_TOKEN
+    commands:
+      - npm i --location=global vercel
+      - vercel pull -S $VERCEL_OWNER -t $VERCEL_TOKEN --environment=production -y
+      - vercel build -S $VERCEL_OWNER -t $VERCEL_TOKEN --prod
+      - vercel deploy -S $VERCEL_OWNER -t $VERCEL_TOKEN --prebuilt --prod
