@@ -1,4 +1,3 @@
-# section information
 section:
   name: About
   id: about
@@ -7,88 +6,142 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
-designation: Software Engineer
-# your company information
+designation: Full-Stack Developer & Operations Engineer
+
 company:
-  name: Example Co.
-  url: 'https://www.example.com'
+  name: 4lch4 Industries, LLC.
+  url: https://4lch4.industries
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+summary: |
+  I'm a **Full-Stack Developer** and **Operations Engineer** due to my latest
+  job at [J.B. Hunt](https://www.jbhunt.com) where my role has me doing both
+  jobs. I graduated with my degree in May of 2015 and started my first job as a
+  **Jr. Software Test Engineer** at [SAPIEN Technologies,
+  Inc](https://sapien.com). For more details, refer to the following sections.
 
-# a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
-
-# your social links
-# give as many as you want. use font-awesome for the icons.
+# Makes use of FontAwesome for the icons.
 socialLinks:
   - name: Email
     icon: 'fas fa-envelope'
-    url: 'example@gmail.com'
+    url: 'hey@4lch4.email'
 
   - name: Github
     icon: 'fab fa-github'
-    url: 'https://www.github.com/example'
+    url: 'https://github.com/4lch4'
 
   - name: Stackoverflow
     icon: 'fab fa-stack-overflow'
-    url: '#'
+    url: 'https://stackoverflow.com/users/2998850/4lch4'
 
   - name: LinkedIn
     icon: 'fab fa-linkedin'
-    url: '#'
+    url: 'https://linkedin.com/in/devin-leaman-49622429'
 
   - name: Twitter
     icon: 'fab fa-twitter'
-    url: '#'
+    url: 'https://twitter.com/4lch4'
 
   - name: Facebook
     icon: 'fab fa-facebook'
-    url: '#'
+    url: 'https://facebook.com/4lch4'
+
+  - name: All Socials
+    icon: 'fas fa-list'
+    url: 'https://4lch4.social'
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
-resourceLinks:
-  - title: 'My Resume'
-    url: 'files/resume.pdf'
+# resourceLinks:
+#   - title: 'My Resume'
+#     url: 'files/resume.pdf'
 
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-  - type: certification
-    name: Certified Kubernetes Security Specialist
-    url: 'https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist'
-    badge: 'https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png'
+  # - type: certification
+  #   name: Certified Kubernetes Security Specialist
+  #   url: 'https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist'
+  #   badge: 'https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png'
 
-  - type: certification
-    name: Istio and IBM Cloud Kubernetes Service
-    url: 'https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist'
-    badge: 'https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png'
-
-  - type: certification
-    name: Artificial Intelligence and Machine Learning
-    url: 'https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning'
-    badge: 'https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png'
+  #region Availabe Colors
+  # --blue: #007bff;
+  # --indigo: #6610f2;
+  # --purple: #6f42c1;
+  # --pink: #e83e8c;
+  # --red: #dc3545;
+  # --orange: #fd7e14;
+  # --yellow: #ffc107;
+  # --green: #28a745;
+  # --teal: #20c997;
+  # --cyan: #17a2b8;
+  # --white: #fff;
+  # --gray: #6c757d;
+  # --gray-dark: #343a40;
+  # --primary: #007bff;
+  # --secondary: #6c757d;
+  # --success: #28a745;
+  # --info: #17a2b8;
+  # --warning: #ffc107;
+  # --danger: #dc3545;
+  # --light: #f8f9fa;
+  # --dark: #343a40;
+  #endregion Available Colors
 
   - type: soft-skill-indicator
-    name: Leadership
-    percentage: 85
+    name: DigitalOcean
+    percentage: 90
     color: blue
 
   - type: soft-skill-indicator
-    name: Team Work
+    name: Dynatrace
+    percentage: 90
+    color: green
+
+  - type: soft-skill-indicator
+    name: Git
     percentage: 90
     color: yellow
 
   - type: soft-skill-indicator
-    name: Hard Working
-    percentage: 85
+    name: Ubuntu Server # (16.04 - 22.04)
+    percentage: 75
     color: orange
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+
+  - type: soft-skill-indicator
+    name: Windows Server # (2012 - 2022)
+    percentage: 75
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Docker
+    percentage: 90
+    color: blue
+
+  - type: soft-skill-indicator
+    name: TypeScript
+    percentage: 85
+    color: blue
+
+  - type: soft-skill-indicator
+    name: NodeJS
+    percentage: 85
+    color: green
+
+  - type: soft-skill-indicator
+    name: Kubernetes
+    percentage: 80
+    color: blue
+
+  - type: soft-skill-indicator
+    name: PowerShell
+    percentage: 75
+    color: blue
+
+  - type: soft-skill-indicator
+    name: ExtraHop
+    percentage: 75
+    color: '#343a40'
+
+  - type: soft-skill-indicator
+    name: Java
+    percentage: 50
+    # Set color to red
+    color: '#dc3545'
