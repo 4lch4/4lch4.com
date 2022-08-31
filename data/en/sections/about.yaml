@@ -6,11 +6,11 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: Full-Stack Developer & Operations Engineer
+designation: Sr. Full-Stack Developer & Sr. Operations Engineer
 
-company:
-  name: 4lch4 Industries, LLC.
-  url: https://4lch4.industries
+# company:
+#   name: 4lch4 Industries, LLC
+#   url: https://4lch4.industries
 
 summary: |
   I'm a **Full-Stack Developer** and **Operations Engineer** due to my latest
