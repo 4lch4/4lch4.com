@@ -86,21 +86,6 @@ badges:
   #endregion Available Colors
 
   - type: soft-skill-indicator
-    name: Ubuntu Server # (16.04 - 22.04)
-    percentage: 75
-    color: orange
-
-  - type: soft-skill-indicator
-    name: Windows Server # (2012 - 2022)
-    percentage: 75
-    color: blue
-
-  - type: soft-skill-indicator
-    name: Docker
-    percentage: 90
-    color: blue
-
-  - type: soft-skill-indicator
     name: TypeScript
     percentage: 85
     color: blue
@@ -111,6 +96,16 @@ badges:
     color: green
 
   - type: soft-skill-indicator
-    name: Kubernetes
-    percentage: 80
+    name: PowerShell
+    percentage: 85
     color: blue
+
+  - type: soft-skill-indicator
+    name: Java (8 LTS - 17 LTS)
+    percentage: 75
+    color: '#dc3545'
+
+  - type: soft-skill-indicator
+    name: Bash
+    percentage: 75
+    color: '#000000'

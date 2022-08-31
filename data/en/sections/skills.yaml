@@ -12,12 +12,19 @@ skills:
     url: https://kubernetes.io/
     summary: |
       Capable of deploying, managing applications on Kubernetes. Experienced in writing Kubernetes
-      controllers for CRDs. Also capable setting up, managing, and operating a Kubernetes Cluster
-      via GKE, Azure Kubernetes, or DigitalOcean Kubernetes.
+      controllers for CRDs. Knowledgeable on setting up, managing, and operating a Kubernetes
+      Cluster via <a href="https://cloud.google.com/kubernetes-engine" target="_blank">GKE</a>,
+      <a href="https://azure.microsoft.com/en-us/services/kubernetes-service/" target="_blank">AKS</a>,
+      or <a href="https://www.digitalocean.com/products/kubernetes" target="_blank">DigitalOcean
+      Kubernetes</a>.
 
   - name: Cloud Computing
     logo: /images/icons/cloud.svg
-    summary: Worked with most of the major clouds such as GCP, Azure, DigitalOcean, Linode, etc.
+    summary: |
+      Worked with most of the major clouds such as <a href="https://cloud.google.com/"
+      target="_blank">GCP</a>, <a href="https://azure.microsoft.com/en-us/" target="_blank">Azure</a>,
+      <a href="https://www.digitalocean.com" target="_blank">DigitalOcean</a>,
+      <a href="https://linode.com" target="_blank">Linode</a>, etc.
 
   - name: Docker
     logo: /images/sections/skills/docker.svg
@@ -29,37 +36,51 @@ skills:
   - name: Prometheus
     logo: /images/sections/skills/prometheus.png
     url: https://prometheus.io/
-    summary: Capable of setup, configure Prometheus metrics. Also, experienced with writing metric exporters.
+    summary: |
+      Experienced with the setup and configuration of a Prometheus installation and metrics. I also
+      have experience writing custom metric exporters.
 
   - name: Dynatrace
     logo: /images/icons/dynatrace.svg
     url: https://dynatrace.com
     summary: |
-      Capable of setting up, operating, and maintaining a managed Dynatrace cluster. Also
-      experienced with building custom integrations for Dynatrace using custom extensions and the
-      Environment/Configuration APIs.
+      I have over 3 years experience in setting up, operating, and maintaining a
+      <a href="https://www.dynatrace.com/support/help/setup-and-configuration/dynatrace-managed"
+      target="_blank">managed Dynatrace cluster</a>. I'm also experienced with building custom
+      integrations for Dynatrace using
+      <a href="https://www.dynatrace.com/support/help/extend-dynatrace/extensions20"
+      target="_blank">custom extensions</a> and/or the <a
+      href="https://www.dynatrace.com/support/help/dynatrace-api/environment-api"
+      target="_blank">Environment</a> /
+      <a href="https://www.dynatrace.com/support/help/dynatrace-api/configuration-api"
+      target="_blank">Configuration</a> APIs.
 
   - name: ExtraHop
     logo: /images/icons/extrahop.svg
     url: https://extrahop.com
     summary: |
-      Capable of setting up, operating, and maintaining a managed ExtraHop cluster. Also capable of
-      doing the same for their SaaS offering as I was part of the team that migrated our managed
-      installation to their SaaS offering.
+      Knowledgeable on setting up, operating, and maintaining a managed ExtraHop cluster, as well as
+      doing the same for their SaaS offering since I was part of the team that migrated our managed
+      installation to their SaaS offering. Lastly, I have a deep understanding on how to create
+      <a href="https://docs.extrahop.com/current/extrahop-trigger-api/#trigger" target="_blank">custom
+      triggers</a> and integrations using the <a
+      href="https://docs.extrahop.com/current/rest-api-guide/" target="_blank">REST API</a>.
 
   - name: Ubuntu Server (16.04 — 22.04)
     logo: /images/icons/ubuntu.svg
     summary: |
-      Used as my primary server (and desktop) operating system. Capable of writing bespoke
-      bash/shell scripts as needed.
+      Used as my primary server (and desktop) operating system. Well versed in writing bespoke bash
+      / shell scripts as needed.
 
   - name: Git
     logo: /images/sections/skills/git.png
     url: https://git.4lch4.io
     summary: |
-      Experienced with git-based development. I primarily use my instance own of Gitea, but I have
-      some of my repositories available on GitHub as well. I am also quite experienced with using
-      GitHub Actions to build, deploy, test, etc., the repository.
+      Experienced with git-based development using git-flow in some instances. I primarily use my
+      <a href="https://git.4lch4.io" target="_blank">own instance of Gitea</a>, but I have some of
+      my repositories available on GitHub as well. I am also quite experienced with using
+      <a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions</a> to build,
+      deploy, test, etc., a repository/codebase.
 
   - name: Azure DevOps
     logo: /images/icons/microsoft.svg
@@ -74,7 +95,26 @@ skills:
     url: https://drone.io
     logo: /images/icons/drone-ci.svg
     summary: |
-      I have my own instance of Drone CI that I've run for a while so I'm capable of setting up a
-      new installation (with self-hosted runners if needed), managing an existing installation, etc.
-      I'm also experienced with building integrations with the Drone API, building pipeline
-      templates, making use of secrets, badges, etc.
+      I have my <a href="https://drone.4lch4.io" target="_blank">own instance of Drone CI</a> that
+      I've had running for a while so I'm capable of setting up a new installation (with self-hosted
+      runners if needed), managing an existing installation, etc. I'm also experienced with building
+      integrations with the Drone API, building pipeline templates, making use of secrets, badges, etc.
+
+  - name: Jenkins
+    url: https://jenkins.io
+    logo: /images/icons/jenkins.png
+    summary: |
+      I'm well versed in setting up, managing, and operating a self-hosted instance of
+      <a href="https://jenkins.io" target="_blank">Jenkins</a> since I have done just this at
+      <a href="https://www.jbhunt.com" target="_blank">J.B. Hunt</a> for the last 2-3 years. I've
+      also wrote and maintained custom PowerShell scripts that are used by Jenkins under the hood
+      to build and deploy applications.
+
+  # - name: Programming Languages of Choice
+  #   summary: |
+  #     I'm proficient in the following languages:
+
+  #     - JavaScript/NodeJS
+  #     - TypeScript
+  #     - Java (8-17)
+  #     - PowerShell
