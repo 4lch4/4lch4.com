@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: Achievements
   id: accomplishments
   enable: true
   weight: 8
@@ -14,13 +14,16 @@ accomplishments:
     courseOverview: |
       I was on the team that was responsible for planning and performing the
       actual migration of our resources. We managed to complete the migration
-      the fastest Google had seen for an organization of our size.
+      the fastest Google had seen for an organization of our size. I personally
+      was responsible for migrating our managed installation of Dynatrace from
+      Azure to GCP. This involved moving over 20 VMs with load balancers and
+      custom configurations without any downtime for the UI those VMs served.
     timeline: October 2020 — February 2021
     organization:
       name: J.B. Hunt
       url: https://www.jbhunt.com
 
-  - name: Won the E&T-Focused award for the J.B. Hunt Hackathon 2 years in a row.
+  - name: Won the Best E&T-Focused Project award for the J.B. Hunt Hackathon 2 years in a row.
     courseOverview: |
       J.B. Hunt hosts a Hackathon each year and I won the E&T Focused award in
       2020 and 2021. The award went to whichever project would provide the most

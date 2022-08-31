@@ -11,54 +11,96 @@ section:
 # Your experiences
 experiences:
   - company:
-      name: Example Co.
-      url: 'https://www.example.com'
-      location: Dhaka Branch
-      # company overview
-      overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+      name: J.B. Hunt
+      url: https://www.jbhunt.com
+      location: Lowell, AR
+      overview: |
+        _Multi-modal supply chain services and products available through J.B.
+        Hunt, one of the largest freight transportation providers in North
+        America._
     positions:
-      - designation: Senior Software Engineer
-        start: Nov 2019
+      - designation: Senior Operations Engineer
+        start: Feb. 2022
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         # end: Dec 2020
         # give some points about what was your responsibilities at the company.
         responsibilities:
-          - Design and develop XYZ tool for ABC task
-          - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-          - Lead backend team.
+          - |
+            Teach other NOC/Operations Engineers how to do a number of developer related tasks such
+            as Pull Requests, managing git repositories, deploying/undeploying services to
+            Kubernetes, etc.
+          - |
+            Perform quarterly audits of our Dynatrace infrastructure and our automatically applied
+            tagging rules for each product in the company.
+          - |
+            Develop more utilities, such as a status page (mentioned in my Achievements), to be used
+            throughout the company with the purpose of streamlining problem detection or simplifying
+            disseminating information regarding ongoing issues.
 
-      - designation: Junior Software Engineer
-        start: Nov 2017
-        end: Oct 2019
+      - designation: Operations Engineer
+        start: Feb. 2020
+        end: Feb. 2022
         responsibilities:
-          - Implement and test xyz feature for abc tool.
-          - Support client for abc tool.
-          - Learn k,d,w technology for xyz.
+          - Develop utilities such as PowerShell modules for use by other NOC/Operations Engineers.
+          - |
+            Collaborate with various teams to create custom integrations for their services to gain
+            enhanced monitoring abilities through [Dynatrace](https://dynatrace.com) or
+            [ExtraHop](https://extrahop.com).
+          - |
+            Monitor the health of our managed Dynatrace infrastructure, provide support (as the
+            on-call) in the event of any issues, and manage updates to any and all components
+            of the Dynatrace cluster.
+
+      - designation: Contractor (NOC Engineer)
+        start: Feb. 2019
+        end: Feb. 2020
+        responsibilities:
+          - |
+            Monitor Operations with tools such as [Dynatrace](https://dynatrace.com),
+            [ExtraHop](https://extrahop.com), and
+            [Microsoft's System Center](https://www.microsoft.com/en-us/system-center).
+          - |
+            Provide first-line support for CICD related issues with
+            [Jenkins](https://www.jenkins.io/) and [Azure DevOps](https://dev.azure.com/).
+          - |
+            Contact On-Calls in the event of a major incident, assist with sending out company-wide
+            communications and help manage the major incident call.
 
   - company:
-      name: PreExample Co.
-      url: 'https://www.example.com'
-      location: Nowhere
-      overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+      name: 4lch4 Industries, LLC.
+      url: 'https://4lch4.industries'
+      location: USA
+      overview: |
+        4lch4 Industries is my personal company that I use for doing freelance work. I haven't done
+        much freelance work since I started working at J.B. Hunt, but I still maintain my company
+        and publish some open-source software under my company name.
     positions:
-      - designation: Software Engineer
-        start: March 2016
+      - designation: Owner/Founder
+        start: Jan. 2018
+        responsibilities:
+          - |
+            Search for potential clients and contact them with estimates and any other information
+            they may have requested.
+          - |
+            Work with clients to determine what exactly they want achieved and provide time-frame
+            estimates based on the difficulty of their request(s).
+          - Maintain business records for taxes, legal, etc. purposes.
+
+  - company:
+      name: SAPIEN Technologies, Inc.
+      url: 'https://www.sapien.com'
+      location: Napa Valley, CA
+      overview: |
+        SAPIEN is out to make Windows administrative tasks simpler.  We offer best-of-class script
+        editors, authoritative PowerShell books, training videos, supportive communities, and
+        real-world training.
+    positions:
+      - designation: Jr. Software Test Engineer
+        # Aug 2015 - May 2017
+        start: Aug.
         end: May 2017
         responsibilities:
-          - Write lots of example codes.
-          - Read lots of examples.
-          - See lots of example videos.
-
-  - company:
-      name: Intern Counting Company (ICC).
-      url: 'https://www.example.com'
-      location: Intern Land
-      overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-    positions:
-      - designation: Intern
-        start: Jun 2015
-        end: Jan 2016
-        responsibilities:
-          - Count lost of interns.
-          - Count more interns.
-          - Count me as an intern.
+          - Create and maintain a suite of tests for all of our available software (8+ separate offerings).
+          - Perform testing on any new versions of our available software.
+          - Create and maintain the new Android version of the iPhone app the CEO had published.
+          - Provide customer support for any and all issues related to our available software.

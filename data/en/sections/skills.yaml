@@ -1,49 +1,80 @@
-# section information
+# Section information
 section:
   name: Skills
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
   - name: Kubernetes
     logo: /images/sections/skills/kubernetes.png
-    summary: 'Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs.'
-    url: 'https://kubernetes.io/'
-
-  - name: Go Development
-    logo: /images/sections/skills/go.png
-    summary: 'Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program.'
-    url: 'https://golang.org/'
+    url: https://kubernetes.io/
+    summary: |
+      Capable of deploying, managing applications on Kubernetes. Experienced in writing Kubernetes
+      controllers for CRDs. Also capable setting up, managing, and operating a Kubernetes Cluster
+      via GKE, Azure Kubernetes, or DigitalOcean Kubernetes.
 
   - name: Cloud Computing
-    logo: /images/sections/skills/cloud.png
-    summary: 'Worked with most of the major clouds such as GCP, AWS, Azure etc.'
+    logo: /images/icons/cloud.svg
+    summary: Worked with most of the major clouds such as GCP, Azure, DigitalOcean, Linode, etc.
 
   - name: Docker
     logo: /images/sections/skills/docker.svg
-    summary: 'Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process.'
-    url: 'https://www.docker.com/'
+    url: https://www.docker.com/
+    summary: |
+      I've experience writing NodeJS, PowerShell, Java, and simple Bash programs as containerized
+      service to run as a Docker container. Experienced with multi-stage, multi-arch build process.
 
   - name: Prometheus
     logo: /images/sections/skills/prometheus.png
-    summary: 'Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters.'
-    url: 'https://prometheus.io/'
+    url: https://prometheus.io/
+    summary: Capable of setup, configure Prometheus metrics. Also, experienced with writing metric exporters.
 
-  - name: Linux
-    logo: /images/sections/skills/linux.png
-    summary: 'Using as the main operating system. Capable of writing bash/shell scripts.'
+  - name: Dynatrace
+    logo: /images/icons/dynatrace.svg
+    url: https://dynatrace.com
+    summary: |
+      Capable of setting up, operating, and maintaining a managed Dynatrace cluster. Also
+      experienced with building custom integrations for Dynatrace using custom extensions and the
+      Environment/Configuration APIs.
+
+  - name: ExtraHop
+    logo: /images/icons/extrahop.svg
+    url: https://extrahop.com
+    summary: |
+      Capable of setting up, operating, and maintaining a managed ExtraHop cluster. Also capable of
+      doing the same for their SaaS offering as I was part of the team that migrated our managed
+      installation to their SaaS offering.
+
+  - name: Ubuntu Server (16.04 — 22.04)
+    logo: /images/icons/ubuntu.svg
+    summary: |
+      Used as my primary server (and desktop) operating system. Capable of writing bespoke
+      bash/shell scripts as needed.
 
   - name: Git
     logo: /images/sections/skills/git.png
-    summary: 'Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab.'
-    url: 'https://git-scm.com/'
+    url: https://git.4lch4.io
+    summary: |
+      Experienced with git-based development. I primarily use my instance own of Gitea, but I have
+      some of my repositories available on GitHub as well. I am also quite experienced with using
+      GitHub Actions to build, deploy, test, etc., the repository.
 
-  - name: C++
-    logo: /images/sections/skills/c++.png
-    summary: 'Know basic C/C++ programming. Used for contest programming and problem solving.'
+  - name: Azure DevOps
+    logo: /images/icons/microsoft.svg
+    url: https://dev.azure.com
+    summary: |
+      Well experienced with using Azure DevOps for git repos, artifact registries, agile project
+      work items, and CICD build and release pipelines. I am capable of building a full build &
+      release setup for a NodeJS, Java, PowerShell, etc., type of application that is fully
+      automated based on new commits, PRs, etc.
+
+  - name: Drone CI
+    url: https://drone.io
+    logo: /images/icons/drone-ci.svg
+    summary: |
+      I have my own instance of Drone CI that I've run for a while so I'm capable of setting up a
+      new installation (with self-hosted runners if needed), managing an existing installation, etc.
+      I'm also experienced with building integrations with the Drone API, building pipeline
+      templates, making use of secrets, badges, etc.

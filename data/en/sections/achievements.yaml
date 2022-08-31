@@ -2,7 +2,7 @@
 section:
   name: Achievements
   id: achievements
-  enable: true
+  enable: false
   weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,6 +10,17 @@ section:
 
 # Your achievements achievements
 achievements:
+  - title: Won the Best E&T-Focused Hackathon Project
+    image: /images/sections/achievements/presenter.jpg
+    summary: |
+      J.B. Hunt hosts a Hackathon each year and I won the E&T Focused award in
+      2020 and 2021. The award went to whichever project would provide the most
+      value to the Engineering and Technology department. My project was a
+      status page, similar to https://statuspage.io/, that was managed by our
+      Incident Management Team. When I won the 2nd time, I was able to present
+      the project to the CIO who then granted us funding to finish the project
+      and deploy it to production.
+
   - title: Best Presenter
     image: /images/sections/achievements/presenter.jpg
     summary: Best presenter in the 2020 XYZ conference.
