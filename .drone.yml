@@ -13,9 +13,6 @@ trigger:
     exclude:
       - promote
 
-workspace:
-  path: /drone/4lch4.com
-
 steps:
   - name: Build and Deploy
     image: node:lts-alpine
@@ -38,9 +35,6 @@ trigger:
   event: 
     include:
       - promote
-
-workspace:
-  path: /drone/4lch4.com
 
 steps:
   - name: Build and Deploy
