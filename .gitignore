@@ -1,3 +1,5 @@
 resources/*
 .vscode/*.log
 **/.DS_Store
+.vercel/*
+public/*
