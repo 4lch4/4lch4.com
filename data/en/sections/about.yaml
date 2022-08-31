@@ -13,11 +13,11 @@ designation: Sr. Full-Stack Developer & Sr. Operations Engineer
 #   url: https://4lch4.industries
 
 summary: |
-  I'm a **Full-Stack Developer** and **Operations Engineer** due to my latest
-  job at [J.B. Hunt](https://www.jbhunt.com) where my role has me doing both
-  jobs. I graduated with my degree in May of 2015 and started my first job as a
-  **Jr. Software Test Engineer** at [SAPIEN Technologies,
-  Inc](https://sapien.com). For more details, refer to the following sections.
+  I'm a **Sr. Full-Stack Developer** and **Sr. Operations Engineer** due to my current job at
+  [J.B. Hunt](https://www.jbhunt.com) where my role has the responsibilities of both jobs. I
+  graduated with my degree in May of 2015 and started my first job as a **Jr. Software Test
+  Engineer** at [SAPIEN Technologies, Inc](https://sapien.com). For more details, refer to the
+  following sections.
 
 # Makes use of FontAwesome for the icons.
 socialLinks:
@@ -86,21 +86,6 @@ badges:
   #endregion Available Colors
 
   - type: soft-skill-indicator
-    name: DigitalOcean
-    percentage: 90
-    color: blue
-
-  - type: soft-skill-indicator
-    name: Dynatrace
-    percentage: 90
-    color: green
-
-  - type: soft-skill-indicator
-    name: Git
-    percentage: 90
-    color: yellow
-
-  - type: soft-skill-indicator
     name: Ubuntu Server # (16.04 - 22.04)
     percentage: 75
     color: orange
@@ -129,19 +114,3 @@ badges:
     name: Kubernetes
     percentage: 80
     color: blue
-
-  - type: soft-skill-indicator
-    name: PowerShell
-    percentage: 75
-    color: blue
-
-  - type: soft-skill-indicator
-    name: ExtraHop
-    percentage: 75
-    color: '#343a40'
-
-  - type: soft-skill-indicator
-    name: Java
-    percentage: 50
-    # Set color to red
-    color: '#dc3545'
