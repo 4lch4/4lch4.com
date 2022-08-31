@@ -1,30 +1,29 @@
-VERSION="4.1.0"
-
-all: clean build update-tag push
-
-clean:
-	rm -rf public
-
-build:
+hugo-build:
 	hugo
 
 update-tag:
+	@if [ -z "$(VERSION)" ]; then echo "VERSION variable has not been set" && exit 1; fi
 	@echo "Adding v$(VERSION) tag..."
 	@git tag v$(VERSION) -m "Release v$(VERSION)"
 	@$(MAKE) push
 
 update-theme:
-	@git add themes/hugo-profile
-	@git commit -m 'chore: updated hugo-profile submodule'
+	@git add themes/toha
+	@git commit -m 'chore: updated toha theme submodule'
 	@git push
 
-build-config:
-	@dhall-to-yaml --file ./configs/index.dhall --output ./config.yaml
-
 push:
-	@echo "Pushing to GitHub..."
-	@git push --tags
+	@echo "Pushing to Gitea..."
+	@git push --follow-tags
 
-start: clean build
+start:
 	@echo "Starting server..."
-	@hugo server -D
+	@hugo server -w
+
+build:
+	@echo "Building for Vercel..."
+	@vercel build -t $(VERCEL_TOKEN) --prod .
+
+deploy: build
+	@echo "Deploying to Vercel..."
+	@vercel deploy -t $(VERCEL_TOKEN) --prod
