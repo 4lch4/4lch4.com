@@ -4,6 +4,12 @@ kind: pipeline
 type: docker
 trigger:
   event: 
+    include:
+      - cron
+      - custom
+      - push
+      - pull_request
+      - tag
     exclude:
       - promote
 
