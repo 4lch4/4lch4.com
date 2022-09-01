@@ -86,9 +86,9 @@ skills:
     logo: /images/icons/microsoft.svg
     url: https://dev.azure.com
     summary: |
-      Well experienced with using Azure DevOps for git repos, artifact registries, agile project
-      work items, and CICD build and release pipelines. I am capable of building a full build &
-      release setup for a NodeJS, Java, PowerShell, etc., type of application that is fully
+      High level of experience with using Azure DevOps for git repos, artifact registries, agile
+      project work items, and CICD build and release pipelines. I am capable of building a full
+      build & release setup for a NodeJS, Java, PowerShell, etc., type of application that is fully
       automated based on new commits, PRs, etc.
 
   - name: Drone CI
