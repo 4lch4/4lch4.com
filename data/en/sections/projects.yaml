@@ -2,7 +2,7 @@
 section:
   name: Projects
   id: projects
-  enable: false
+  enable: true
   weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -12,53 +12,191 @@ section:
 buttons:
   - name: All
     filter: 'all'
-  - name: Professional
-    filter: 'professional'
-  - name: Academic
-    filter: 'academic'
-  - name: Hobby
-    filter: 'hobby'
+  - name: NPM Packages
+    filter: 'npm'
+  - name: APIs
+    filter: 'api'
+  - name: CLIs
+    filter: 'cli'
+  - name: Retired/Inactive
+    filter: 'retired'
+  - name: Active
+    filter: 'active'
 
 # your projects
 projects:
-  - name: Kubernetes
-    logo: /images/sections/projects/kubernetes.png
-    role: Contributor
-    timeline: 'March 2018 - Present'
-    repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-    #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-    summary: Production-Grade Container Scheduling and Management.
-    tags: ['professional', 'kubernetes', 'cloud']
+  #region Active Projects
+  - name: '@4lch4/Logger'
+    logo: /images/icons/typescript.svg
+    role: Creator/Maintainer
+    timeline: March 2021 - Present
+    repo: https://git.4lch4.io/4lch4/Logger
+    summary: |
+      A simple console logger util for use in NodeJS/TypeScript applications that adds some color to
+      `console.log` output.
+    tags: ['active', 'node', 'typescript', 'npm']
 
-  - name: Tensorflow
-    logo: /images/sections/projects/tensorflow.png
-    role: Developer
-    timeline: 'Jun 2018 - Present'
-    repo: https://github.com/tensorflow/tensorflow
-    #url: ""
-    summary: An Open Source Machine Learning Framework for Everyone.
-    tags: ['professional', 'machine-learning']
+  - name: '@4lch4/Schemas'
+    logo: /images/icons/typescript.svg
+    role: Creator/Maintainer
+    timeline: Aug. 2022 - Present
+    repo: https://git.4lch4.io/4lch4/Schemas
+    summary: A small node package that exports all of my available schemas.
+    tags: ['active', 'node', 'typescript', 'npm']
 
-  - name: A sample academic paper
-    role: Team Lead
-    timeline: 'Jan 2017 - Nov 2017'
-    url: 'https://www.example.com'
-    summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-    tags: ['academic', 'iot']
+  - name: '@4lch4/Schemas-API'
+    logo: /images/icons/typescript.svg
+    role: Creator/Maintainer
+    timeline: July 2022 - Present
+    repo: https://git.4lch4.io/4lch4/Schemas-API
+    summary: |
+      An API created using KoaJS that serves the JSON Schema content for the schemas exported by
+      <a href="https://git.4lch4.io/4lch4/Schemas" target="_blank">@4lch4/Schemas</a>.
+    tags: ['active', 'node', 'typescript', 'api']
 
-  - name: Nocode
-    logo: /images/sections/projects/no-code.png
-    role: Nothing
-    timeline: 'Oct 2019 - Dec 2019'
-    repo: https://github.com/kelseyhightower/nocode
-    #url: ""
-    summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-    tags: ['hobby', 'fun']
+  - name: '@4lch4/LT-Commander'
+    logo: /images/icons/typescript.svg
+    role: Creator/Maintainer
+    timeline: July 2022 - Present
+    repo: https://git.4lch4.io/4lch4/LT-Commander
+    summary: |
+      A library that provides some extra functionality and features to the
+      <a href="https://www.npmjs.com/package/commander" target="_blank">Commander library</a>. I use
+      it as the basis for all of my CLI applications that are written in TypeScript.
+    tags: ['active', 'node', 'typescript', 'cli', 'npm']
 
-  - name: Toha
-    logo: /images/sections/projects/toha.png
-    role: Owner
-    timeline: 'Jun 2019 - Present'
-    repo: https://github.com/hossainemruz/toha
-    summary: A Hugo theme for personal portfolio.
-    tags: ['hobby', 'hugo', 'theme', 'professional']
+  - name: Enmeti
+    logo: /images/icons/vscode.svg
+    role: Creator/Maintainer
+    timeline: Aug. 2018 - Present
+    repo: https://git.4lch4.io/4lch4/Enmeti
+    summary: An extension for Visual Studio Code for inserting images and links to Markdown files.
+    tags: ['active', 'typescript', 'extension', 'vscode']
+
+  # Mention my time working on the Astro project and helping with their Discord server.
+  # - name: Astro
+
+  - name: 'Cronicle-Plugin-Tools'
+    logo: /images/icons/cronicle.png
+    role: Creator/Maintainer
+    timeline: Feb. 2022 - Present
+    repo: https://git.4lch4.io/4Cronicle/Plugin-Tools
+    summary: |
+      This project is to provide some helper functions to a new NodeJS module that wishes to be a
+      <a href="https://github.com/jhuckaby/Cronicle#writing-plugins" target="_blank">Cronicle Plugin</a>.
+    tags: ['active', 'typescript', 'npm']
+
+  - name: 'Cronicle-Discord-Webhook'
+    logo: /images/icons/cronicle.png
+    role: Creator/Maintainer
+    timeline: Feb. 2022 - Present
+    repo: https://git.4lch4.io/4Cronicle/Discord-Webhook
+    summary: A plugin for Cronicle for sending messages to a Discord Webhook.
+    tags: ['active', 'typescript', 'npm']
+
+  - name: '@4lch4/Koa-Oto'
+    logo: /images/icons/koa.png
+    role: Creator/Maintainer
+    timeline: Sep. 2021 - Present
+    repo: https://git.4lch4.io/4lch4/Koa-Oto
+    summary: A library for responding to requests within the KoaJS framework.
+    tags: ['active', 'typescript', 'npm']
+
+  - name: '@4lch4/Koa-Router-Printer'
+    logo: /images/icons/koa.png
+    role: Creator/Maintainer
+    timeline: July 2021 - Present
+    repo: https://git.4lch4.io/4lch4/Koa-Router-Printer
+    summary: A KoaJS middleware that outputs the routes registered to the application.
+    tags: ['active', 'typescript', 'npm']
+
+  - name: 'Tron'
+    logo: /images/icons/discord.svg
+    role: Creator/Maintainer
+    timeline: Dec. 2016 - Feb. 2021
+    repo: https://git.4lch4.io/4lch4/Tron
+    summary: A Discord chat bot developed to make socializing a bit more enjoyable on our servers.
+    tags: ['retired', 'discord', 'bot']
+
+  - name: '4lch4.social'
+    logo: /images/icons/hugo.png
+    role: Creator/Maintainer
+    timeline: Mar. 2022 - Present
+    repo: https://git.4lch4.io/4lch4/4lch4.social
+    summary: My socials landing page, with links to my accounts/presence online.
+    tags: ['active', 'website', 'hugo']
+
+  - name: 'NovaPoet'
+    logo: /images/icons/hugo.png
+    role: Creator/Maintainer
+    timeline: Mar. 2022 - Present
+    repo: https://git.4lch4.io/4lch4/NovaPoet
+    summary: A blog setup for my buddy Corey to share his thoughts/arts.
+    tags: ['active', 'website', 'hugo']
+
+  - name: 'Gitea-Migrator'
+    logo: /images/icons/gitea.svg
+    role: Creator/Maintainer
+    timeline: July 2022 - Present
+    repo: https://git.4lch4.io/4lch4/Gitea-Migrator
+    summary: A CLI utility to migrate your GitHub user data, organizations, repositories, etc., to an instance of Gitea.
+    tags: ['active', 'typescript', 'cli']
+
+  - name: 'Digital-Garden'
+    logo: /images/icons/hugo.png
+    role: Creator/Maintainer
+    timeline: May 2021 - Present
+    repo: https://git.4lch4.io/4lch4/Digital-Garden
+    summary: My Digital Garden, Knowledge Base, collection of TILs, whatever you wanna call it. I store tidbits of knowledge that I've gathered over time.
+    tags: ['active', 'website', 'hugo']
+
+  - name: '4lch4.com'
+    logo: /images/site/favicon.png
+    role: Creator/Maintainer
+    timeline: May 2021 - Present
+    repo: https://git.4lch4.io/4lch4/4lch4.com
+    summary: This website you're on now. It serves as my landing page, portfolio, resume, blog, collection of notes, etc.
+    tags: ['active', 'website', 'hugo']
+
+  - name: 'Cheatsheets'
+    logo: /images/site/favicon.png
+    role: Creator/Maintainer
+    timeline: Dec. 2019 - Present
+    repo: https://git.4lch4.io/4lch4/cheatsheets
+    summary: TL;DR for developer documentation -a ridiculous collection of cheatsheets (forked from another cheatsheets repo and expanded upon).
+    tags: ['active', 'website']
+  #endregion Active Projects
+
+  #region Retired Projects
+  - name: 'Dobby'
+    logo: /images/icons/discord.svg
+    role: Creator/Maintainer
+    timeline: Aug. 2017 - Oct. 2017
+    repo: https://git.4lch4.io/4lch4/Dobby
+    summary: Was a Discord self-bot that would fix common typos and grammar mistakes, before self-bots were banned.
+    tags: ['retired', 'discord', 'bot']
+
+  - name: 'Metanoia'
+    logo: /images/icons/battle.net.svg
+    role: Creator/Maintainer
+    timeline: Nov. 2017 - Jan. 2020
+    repo: https://git.4lch4.io/4lch4/Metanoia
+    summary: A library for converting IP addresses to Battle.net regions.
+    tags: ['retired', 'npm']
+
+  - name: 'Guild-Emblem-Generator'
+    logo: /images/icons/battle.net.svg
+    role: Creator/Maintainer
+    timeline: Dec. 2017 - Mar. 2020
+    repo: https://git.4lch4.io/4lch4/Guild-Emblem-Generator
+    summary: A tool for building World of Warcraft guild emblems using node-canvas.
+    tags: ['retired', 'npm']
+
+  - name: 'Hermes'
+    logo: /images/icons/discord.svg
+    role: Creator/Maintainer
+    timeline: Feb. 2017 - Aug. 2017
+    repo: https://git.4lch4.io/4lch4/Hermes_Node.js
+    summary: A Discord bot and Android app that enabled users to send and receive texts messages through Discord.
+    tags: ['retired', 'discord', 'bot']
+  #endregion Retired Projects
