@@ -14,10 +14,8 @@ buttons:
     filter: 'all'
   - name: NPM Packages
     filter: 'npm'
-  - name: APIs
-    filter: 'api'
-  - name: CLIs
-    filter: 'cli'
+  - name: Websites
+    filter: 'website'
   - name: Retired/Inactive
     filter: 'retired'
   - name: Active
