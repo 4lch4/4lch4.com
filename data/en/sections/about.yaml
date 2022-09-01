@@ -101,7 +101,7 @@ badges:
     color: blue
 
   - type: soft-skill-indicator
-    name: Java (8 LTS - 17 LTS)
+    name: Java (8 - 17)
     percentage: 75
     color: '#dc3545'
 
