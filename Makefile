@@ -22,8 +22,8 @@ start:
 
 build:
 	@echo "Building for Vercel..."
-	@vercel build -t $(VERCEL_TOKEN) --prod .
+	@vercel build -t ${VERCEL_TOKEN} --prod
 
 deploy: build
 	@echo "Deploying to Vercel..."
-	@vercel deploy -t $(VERCEL_TOKEN) --prod
+	@vercel deploy -t ${VERCEL_TOKEN} --prod
