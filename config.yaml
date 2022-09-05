@@ -4,6 +4,8 @@ languageCode: en-us
 title: "4lch4's Homepage"
 theme: 'toha'
 
+enableRobotsTXT: true
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 # languages:
