@@ -1,3 +1,3 @@
 # Notes
 
-This directory contains various notes regarding the development of this site (4lch4.com).
+This directory is where I'll story any and all notes related to the development of my homepage, `4lch4.com`/`4lch4.io`.
