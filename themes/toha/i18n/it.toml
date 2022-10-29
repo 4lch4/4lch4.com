@@ -119,6 +119,9 @@ other = "Vedi certificato"
 [notes]
 other = "Appunti"
 
+[projects]
+other = "Progetti"
+
 [disclaimer_text]
 other = "Avviso di responsabilità"
 

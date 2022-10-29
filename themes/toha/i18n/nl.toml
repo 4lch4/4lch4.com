@@ -118,6 +118,9 @@ other = "Bekijk certificaat"
 [notes]
 other = "Opmerkingen"
 
+[projects]
+other = "Projecten"
+
 [disclaimer_text]
 other = "Haftungshinweis"
 [search]

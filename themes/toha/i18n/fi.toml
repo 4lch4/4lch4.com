@@ -119,6 +119,9 @@ other = "Katso todistus"
 [notes]
 other = "Muistiinpanot"
 
+[projects]
+other = "Projektit"
+
 [disclaimer_text]
 other = "Vastuuilmoitus"
 

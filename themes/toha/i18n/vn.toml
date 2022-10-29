@@ -119,6 +119,9 @@ other = "Xem chứng chỉ"
 [notes]
 other = "Ghi chú"
 
+[projects]
+other = "Dự án"
+
 [disclaimer_text]
 other = "Thông báo trách nhiệm"
 

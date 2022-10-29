@@ -119,6 +119,9 @@ other = "Lihat Sertifikat"
 [notes]
 other = "Catatan"
 
+[projects]
+other = "Proyek"
+
 [disclaimer_text]
 other = "Pemberitahuan Kewajiban"
 

@@ -116,6 +116,9 @@ other = "ビューの証明書"
 [notes]
 other = "ノート"
 
+[projects]
+other = "プロジェクト"
+
 [disclaimer_text]
 other = "責任通知"
 

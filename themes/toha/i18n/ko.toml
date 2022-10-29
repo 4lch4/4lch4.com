@@ -119,6 +119,9 @@ other = "인증서보기"
 [notes]
 other = "메모"
 
+[projects]
+other = "프로젝트"
+
 [disclaimer_text]
 other = "책임 고지"
 
