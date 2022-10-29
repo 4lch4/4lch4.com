@@ -25,8 +25,8 @@ description: Portfolio & blog of 4lch4.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: 4lch4's Portfolio & Blog
+  title: 4lch4's Homepage
   type: website
-  description: Portfolio and personal blog of 4lch4.
+  description: The personal blog, portfolio, etc., of 4lch4.
   image: images/site/avatar.png
   url: https://4lch4.com
