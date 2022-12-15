@@ -47,7 +47,8 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/4lch4/4lch4.com
+  gitRepo: https://git.4lch4.io/4lch4/4lch4.com
+
   # Default branch of your Git repo
   gitBranch: main
 
@@ -66,9 +67,10 @@ params:
     # Enable and configure portfolio
     portfolio:
       enable: true
+
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -84,6 +86,10 @@ params:
 
     # Enable & configure "Notes" features
     notes:
+      enable: true
+
+    # Enable & configure "Projects" feature(s)
+    projects:
       enable: true
 
     # Enable comment feature. There, should be only one of them.
@@ -103,6 +109,10 @@ params:
       #   repo: github.com/hugo-toha/hugo-toha.github.io
       #   issueTerm: title
       #   theme: github-light
+      # commento:
+      #   serverURL: cdn.commento.io
+      #   autoInit: true
+      #   hideDeleted: false
       giscus:
         repo: 4lch4/4lch4.com-toha
         repoID: R_kgDOH6UVFg
@@ -114,14 +124,9 @@ params:
         crossOrigin: anonymous
         reaction: 1
         metadata: 0
-      # commento:
-      #   serverURL: cdn.commento.io
-      #   autoInit: true
-      #   hideDeleted: false
 
     # Enable Analytics
     analytics:
-      enabled: false
       # Google Analytics
       # google:
       #   id: <analytics-id>
@@ -135,15 +140,16 @@ params:
       # matomo:
       #   instance: matomo.example.com
       #   siteId: 1 # Or any other number
-
-    # # Enable Support
-    support:
       enabled: false
+
+    # Enable Support
+    support:
       # kofi:
       #   user: 4lch4
       #   text: Buy me a coffee
       #   textColor: '#F9FAFC'
       #   backgroundColor: '#248AAA'
+      enabled: false
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true

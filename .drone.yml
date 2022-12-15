@@ -3,7 +3,7 @@ name: Deploy Website (Development)
 kind: pipeline
 type: docker
 trigger:
-  event: 
+  event:
     include:
       - cron
       - custom
@@ -32,7 +32,7 @@ name: Deploy Website (Production)
 kind: pipeline
 type: docker
 trigger:
-  event: 
+  event:
     include:
       - promote
 
