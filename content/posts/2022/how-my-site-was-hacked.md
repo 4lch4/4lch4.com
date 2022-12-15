@@ -19,7 +19,7 @@ menu:
     name: How My Website Was Hacked
     identifier: how-my-website-was-hacked
     parent: 2022
-    weight: 10
+    weight: 20
 ---
 
 I recently learned that one of my websites was "hacked". This blog post is my way of putting all the information in one place, sharing it with the world, and hopefully prevent this from happening to others. Or at the very least, if it _does_ happen to you, maybe this will help you get it back and find out how they did it.

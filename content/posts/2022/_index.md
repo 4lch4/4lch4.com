@@ -4,5 +4,5 @@ menu:
   sidebar:
     name: 2022
     identifier: 2022
-    weight: 20
+    weight: 11
 ---
