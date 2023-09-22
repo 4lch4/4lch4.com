@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: B.Sc in Information Technology - Programming
+    icon: fa-university
+    timeframe: 2011 — 2015
+    institution:
+      name: University of Arkansas at Fort Smith
+      url: https://uafs.edu
+    takenCourses:
+      showGrades: false
+      collapseAfter: 4
+      courses:
+        - name: COBOL Programming
+        - name: Advanced COBOL Programming
+        - name: SQL Programming
+        - name: Advanced SQL Programming
+
+  - name: High School Diploma
+    icon: fa-graduation-cap
+    timeframe: 2009 — 2011
+    institution:
+      name: Redlands Senior High School
+      url: https://www.redlandsusd.net/rhs
+    takenCourses:
+      showGrades: false
+      collapseAfter: 3
+      courses:
+        - name: GIS Programming
+        - name: Advanced GIS Programming
+        - name: Windows Server Management
