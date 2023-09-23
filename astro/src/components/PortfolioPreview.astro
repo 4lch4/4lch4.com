@@ -6,6 +6,11 @@ interface Props {
 }
 
 const { data, slug } = Astro.props.project;
+
+if (data.img === '/img/' || data.img === undefined) {
+	data.img = '/assets/server-rack-0.png'
+	data.img_alt = 'An AI generated image of "a rack of futuristic looking servers in a data center."'
+}
 ---
 
 <a class="card" href={`/work/${slug}`}>
