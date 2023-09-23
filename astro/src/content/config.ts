@@ -7,8 +7,9 @@ export const collections = {
 			description: z.string(),
 			publishDate: z.coerce.date(),
 			tags: z.array(z.string()),
-			img: z.string(),
+			img: z.string().optional(),
 			img_alt: z.string().optional(),
+			repo: z.string().optional(),
 		}),
 	}),
 	posts: defineCollection({
