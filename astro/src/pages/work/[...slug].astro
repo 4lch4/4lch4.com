@@ -39,6 +39,11 @@ const { Content } = await entry.render();
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
 							</div>
 							<p class="description">{entry.data.description}</p>
+							<p>
+								<a class="back-link" href={entry.data.repo} target="_blank">
+									<Icon icon="github-logo" size="1.33em" /> Repo
+								</a>
+							</p>
 						</div>
 					</Hero>
 				</div>
