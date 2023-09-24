@@ -1,0 +1,8 @@
+**/themes/**
+node_modules/
+.vercel/
+public/
+dist
+.env
+.git
+.gitignore

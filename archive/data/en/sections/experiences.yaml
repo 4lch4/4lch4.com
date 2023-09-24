@@ -1,0 +1,126 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: Liatrio
+      url: https://liatrio.com
+      location: Chico, CA
+      overview: |
+        Liatrio guides complex organizations through their digital transformation journey, enabling
+        them to deliver value faster and safer with Enterprise DevOps and Cloud Native delivery.
+    positions:
+      - designation: DevOps Engineer/Consultant
+        start: May 2023
+        responsibilities:
+          - |
+            Work with clients to speed up their software delivery process by implementing CI/CD
+            pipelines.
+          - |
+            Work with clients to adopt GitOps practices to help them manage their Kubernetes
+            clusters and deployments.
+          - |
+            Help clients migrate to platforms such as GitHub Enterprise, ADO, and GitLab to help
+            them manage their source code and CI/CD pipelines.
+
+  - company:
+      name: J.B. Hunt
+      url: https://www.jbhunt.com
+      location: Lowell, AR
+      overview: |
+        _Multi-modal supply chain services and products available through J.B.
+        Hunt, one of the largest freight transportation providers in North
+        America._
+    positions:
+      - designation: Senior Operations Engineer
+        start: Feb. 2022
+        end: May 2023
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - |
+            Teach other NOC/Operations Engineers how to do a number of developer related tasks such
+            as Pull Requests, managing git repositories, deploying/undeploying services to
+            Kubernetes, etc.
+          - |
+            Perform quarterly audits of our Dynatrace infrastructure and our automatically applied
+            tagging rules for each product in the company.
+          - |
+            Develop more utilities, such as a status page (mentioned in my Achievements), to be used
+            throughout the company with the purpose of streamlining problem detection or simplifying
+            disseminating information regarding ongoing issues.
+
+      - designation: Operations Engineer
+        start: Feb. 2020
+        end: Feb. 2022
+        responsibilities:
+          - Develop utilities such as PowerShell modules for use by other NOC/Operations Engineers.
+          - |
+            Collaborate with various teams to create custom integrations for their services to gain
+            enhanced monitoring abilities through [Dynatrace](https://dynatrace.com) or
+            [ExtraHop](https://extrahop.com).
+          - |
+            Monitor the health of our managed Dynatrace infrastructure, provide support (as the
+            on-call) in the event of any issues, and manage updates to any and all components
+            of the Dynatrace cluster.
+
+      - designation: Contractor (NOC Engineer)
+        start: Feb. 2019
+        end: Feb. 2020
+        responsibilities:
+          - |
+            Monitor Operations with tools such as [Dynatrace](https://dynatrace.com),
+            [ExtraHop](https://extrahop.com), and
+            [Microsoft's System Center](https://www.microsoft.com/en-us/system-center).
+          - |
+            Provide first-line support for CICD related issues with
+            [Jenkins](https://www.jenkins.io/) and [Azure DevOps](https://dev.azure.com/).
+          - |
+            Contact On-Calls in the event of a major incident, assist with sending out company-wide
+            communications and help manage the major incident call.
+
+  - company:
+      name: 4lch4 Industries, LLC.
+      url: 'https://4lch4.industries'
+      location: USA
+      overview: |
+        4lch4 Industries is my personal company that I use for doing freelance work. I haven't done
+        much freelance work since I started working at J.B. Hunt, but I still maintain my company
+        and publish some open-source software under my company name.
+    positions:
+      - designation: Owner/Founder
+        start: Jan. 2018
+        responsibilities:
+          - |
+            Search for potential clients and contact them with estimates and any other information
+            they may have requested.
+          - |
+            Work with clients to determine what exactly they want achieved and provide time-frame
+            estimates based on the difficulty of their request(s).
+          - Maintain business records for taxes, legal, etc. purposes.
+
+  - company:
+      name: SAPIEN Technologies, Inc.
+      url: 'https://www.sapien.com'
+      location: Napa Valley, CA
+      overview: |
+        SAPIEN is out to make Windows administrative tasks simpler.  We offer best-of-class script
+        editors, authoritative PowerShell books, training videos, supportive communities, and
+        real-world training.
+    positions:
+      - designation: Jr. Software Test Engineer
+        # Aug 2015 - May 2017
+        start: Aug.
+        end: May 2017
+        responsibilities:
+          - Create and maintain a suite of tests for all of our available software (8+ separate offerings).
+          - Perform testing on any new versions of our available software.
+          - Create and maintain the new Android version of the iPhone app the CEO had published.
+          - Provide customer support for any and all issues related to our available software.

@@ -1,0 +1,52 @@
+# section information
+section:
+  name: Achievements
+  id: accomplishments
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your accomplishments
+accomplishments:
+  - name: Migrated all of J.B. Hunt cloud infrastructure from Azure to Google Cloud.
+    courseOverview: |
+      I was on the team that was responsible for planning and performing the
+      actual migration of our resources. We managed to complete the migration
+      the fastest Google had seen for an organization of our size. I personally
+      was responsible for migrating our managed installation of Dynatrace from
+      Azure to GCP. This involved moving over 20 VMs with load balancers and
+      custom configurations without any downtime for the UI those VMs served.
+    timeline: October 2020 — February 2021
+    organization:
+      name: J.B. Hunt
+      url: https://www.jbhunt.com
+
+  - name: Won the Best E&T-Focused Project award for the J.B. Hunt Hackathon 2 years in a row.
+    courseOverview: |
+      J.B. Hunt hosts a Hackathon each year and I won the E&T Focused award in
+      2020 and 2021. The award went to whichever project would provide the most
+      value to the Engineering and Technology department. My project was a
+      status page, similar to https://statuspage.io/, that was managed by our
+      Incident Management Team. When I won the 2nd time, I was able to present
+      the project to the CIO who then granted us funding to finish the project
+      and deploy it to production.
+    timeline: August 2020 — December 2021
+    organization:
+      name: J.B. Hunt
+      url: https://www.jbhunt.com
+
+  - name: Created an Android version of iPowerShell Pro from SAPIEN Technologies, Inc.
+    timeline: March 2016 — May 2017
+    organization:
+      name: SAPIEN Technologies, Inc.
+      url: https://sapien.com
+    courseOverview: |
+      A few months after I started at [SAPIEN Technologies](https://sapien.com)
+      the CEO mentioned he wanted the iPowerShell Pro app that he created for
+      iPhone to be ported to Android. I had never built an Android app at that
+      point and the company helped me learn how to develop for Android while I
+      ported the app. It was published roughly a year after I started on it and
+      the cost was dropped from $5 to free as a celebration. It has sense been
+      removed from both the Google Play Store and Apple App Store.
