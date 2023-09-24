@@ -1,22 +1,23 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets'
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | 4lch4" description="About 4lch4/Devin W. Leaman">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				tagline="I'm just some dude who likes making and fixing things, but you can learn more than that below."
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+				<Image
+					src="/assets/my-avatar.png"
+					alt="4lch4's Standard Avatar"
+					width="500" 
+					height="500"
 				/>
 			</Hero>
 
@@ -24,36 +25,34 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl
-						condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu
-						odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum
-						dui faucibus in ornare.
+						I started my journey into programming in 2009, when I was 14 and took a class on GIS in
+						high school. My teacher, Mr. Shin, taught the class in an unusual way by using Visual
+						Basic to visualize data from <a href="https://arcgis.com" target="_blank">ArcGIS</a>.
 					</p>
+					<br/>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						I then went to the <a href="https://uafs.edu/" target="_blank">University of Arkansas at Fort Smith</a>
+						and initially majored in <strong>Information Technology - Networking</strong>. After one
+						year of that, I realized Networking was not for me so I switched to
+						<strong>Information Technology - Programming</strong> and graduated in 2015.
 					</p>
+					<br/>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						After getting my degree I moved to Benicia, CA and worked at
+						<a href="https://www.sapien.com/" target="_blank">SAPIEN Technologies, Inc.</a> as a
+						<strong>Jr. Software Test Engineer</strong> for a couple years before moving back
+						to Arkansas to be closer to family. I then did freelance work, followed by a 4 years in
+						a variety of positions at <a href="https://www.jbhunt.com/" target="_blank">J.B. Hunt</a>,
+						and now a <strong>DevOps Engineer/Consultant</strong> at <a href="https://liatrio.com" target="_blank">Liatrio</a>.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
+					<p><strong>University of Arkansas at Fort Smith</strong></p>
+					<p>B.S. in Information Technology - Programming</p>
+					<p>Graduated 2015</p>
 				</div>
 			</section>
 		</main>
