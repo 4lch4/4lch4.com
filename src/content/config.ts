@@ -10,6 +10,7 @@ export const collections = {
 			img: z.string().optional(),
 			img_alt: z.string().optional(),
 			repo: z.string().optional(),
+			draft: z.boolean().optional(),
 		}),
 	}),
 	posts: defineCollection({
@@ -23,6 +24,7 @@ export const collections = {
 			author: z.string(),
 			slug: z.string().optional(),
 			tags: z.array(z.string()),
+			draft: z.boolean().optional(),
 		})
 	})
 };
