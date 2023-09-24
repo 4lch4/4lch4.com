@@ -4,6 +4,8 @@ import { Image } from 'astro:assets'
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Icon from '../components/Icon.astro'
+import Pill from '../components/Pill.astro'
 ---
 
 <BaseLayout title="About | 4lch4" description="About 4lch4/Devin W. Leaman">
@@ -55,6 +57,17 @@ import Hero from '../components/Hero.astro';
 					<p>Graduated 2015</p>
 				</div>
 			</section>
+			<!-- <section>
+				<h2 class="section-title">Skills</h2>
+					<div class="skills">
+						<Pill><Icon icon="bug" size="1.33em" /> Developer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> DevOps Engineer</Pill>
+						<Pill><Icon icon="brain" size="1.33em" /> Consultant</Pill>
+					</div>
+				<div class="content">
+					<p>DevOps Engineering</p>
+				</div>
+			</section> -->
 		</main>
 
 		<ContactCTA />
