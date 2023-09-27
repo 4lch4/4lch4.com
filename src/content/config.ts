@@ -21,7 +21,6 @@ export const collections = {
 			modifiedDate: z.coerce.date(),
 			publishDate: z.coerce.date(),
 			author: z.string(),
-			slug: z.string().optional(),
 			tags: z.array(z.string()),
 		})
 	})
