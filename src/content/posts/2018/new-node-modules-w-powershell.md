@@ -1,16 +1,9 @@
 ---
 title: New Node Modules w/ PowerShell
-fileName: new-node-modules-w-powershell.md
-publishDate: '2018-05-25'
+publishedDate: '2018-05-25'
+createdDate: '2018-05-25'
 tags: ['PowerShell', 'Node.js', 'JavaScript']
 summary: Initializing a new Node module using PowerShell.
-images: []
-menu:
-  sidebar:
-    name: New Node Modules
-    identifier: new-node-modules
-    parent: 2018
-    weight: 10
 ---
 
 I've never been much of an OS/Platform purist. For as long as I can remember I have switched between Unix/Windows based systems on a regular basis for various reasons. With that said, I develop primarily on a Windows machine, and most of my projects end up running on a Linux server (Node modules), or on a Linux kernel (Android) of some sort, so being familiar with the \*nix school of thought is quite helpful in the long run.

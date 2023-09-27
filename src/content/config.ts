@@ -16,12 +16,12 @@ export const collections = {
 		schema: z.object({
 			title: z.string(),
 			summary: z.string(),
-			images: z.array(z.string()),
+			draft: z.boolean().optional(),
+			images: z.array(z.string()).optional(),
 			createdDate: z.coerce.date(),
-			modifiedDate: z.coerce.date(),
-			publishDate: z.coerce.date(),
-			author: z.string(),
-			tags: z.array(z.string()),
+			publishedDate: z.coerce.date().optional(),
+			modifiedDate: z.coerce.date().optional(),
+			tags: z.array(z.string()).optional(),
 		})
 	})
 };

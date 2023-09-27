@@ -1,21 +1,14 @@
 ---
 title: Hello World!
-publishDate: '2021-05-15T00:09:38Z'
+publishedDate: '2021-05-15T00:09:38Z'
+createdDate: '2021-05-15T00:09:38Z'
 tags: ['first']
 draft: false
 summary: The first blog post of this new blog site.
-fileName: hello-world.md
 # images: ['/images/posts/Hello-World.jpg']
-hero: images/Hello-World.jpg
-menu:
-  sidebar:
-    name: Hello World
-    identifier: hello-world
-    parent: 2021
-    weight: 10
 ---
 
-{{< img src="/posts/2021/images/Hello-World.jpg" align="center" title="Hello World">}}
+<!-- {{< img src="/posts/2021/images/Hello-World.jpg" align="center" title="Hello World">}} -->
 
 This is the first of many posts on my blog. I intend on adding all of the writing I've done before, as well as anything done in the future.
 

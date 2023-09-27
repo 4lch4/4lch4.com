@@ -1,15 +1,11 @@
 ---
 title: Hello World in PowerShell
 fileName: hello-world-in-powershell.md
-publishDate: '2018-05-31'
+publishedDate: '2018-05-31'
+modifiedDate: '2018-05-31'
+createdDate: '2018-05-31'
 tags: ['PowerShell', 'Beginner', 'Learning']
 summary: A brief look at PowerShell and a Hello World script.
-menu:
-  sidebar:
-    name: PowerShell Hello World
-    identifier: powershell-hello-world
-    parent: 2018
-    weight: 10
 ---
 
 _The following is a blog post I wrote for [The Renegade Coder][8]'s [sample-programs][9] repository._

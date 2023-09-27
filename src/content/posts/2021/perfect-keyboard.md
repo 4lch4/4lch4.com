@@ -1,31 +1,24 @@
 ---
 title: How I Made the Perfect Keyboard Mine
 summary: A look into how I customized my ZSA Moonlander keyboard.
-images:
-  - /images/posts/Moonlander/16-lifestyle-shot.jpeg
-  - /images/posts/Moonlander/moonlander-logo.png
-publishDate: '2021-07-04T10:03:01Z'
+# images:
+#   - /images/posts/Moonlander/16-lifestyle-shot.jpeg
+#   - /images/posts/Moonlander/moonlander-logo.png
+publishedDate: '2021-07-04T10:03:01Z'
+createdDate: '2021-07-04T10:03:01Z'
 author: 4lch4
-fileName: 'perfect-keyboard.md'
+modifiedDate: '2021-08-29 @ 12:29:54'
 tags:
   - ZSA
   - Keyboards
   - Productivity
-slug: perfect-keyboard
-modifiedDate: '2021-08-29 @ 12:29:54'
-menu:
-  sidebar:
-    name: My Perfect Keyboard
-    identifier: my-perfect-keyboard
-    parent: 2021
-    weight: 10
 ---
 
 After years of hunting and trying new things, I've finally found the perfect keyboard for me.
 
 The **[ZSA Moonlander MK I][0]**.
 
-{{< img src="/posts/2021/images/Moonlander/15-comes-in-two-colors.webp" align="center" title="Moonlander Colors">}}
+<!-- {{< img src="/posts/2021/images/Moonlander/15-comes-in-two-colors.webp" align="center" title="Moonlander Colors">}} -->
 
 ## Why This One?
 

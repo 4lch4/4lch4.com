@@ -1,19 +1,13 @@
 ---
 title: Solving the FizzBuzz Problem in PowerShell
-publishDate: '2018-08-07'
+publishedDate: '2018-08-07'
+createdDate: '2018-08-07'
 tags: ['PowerShell', 'Tips', 'Interviews', 'FizzBuzz']
 summary: A simple solution to the standard Fizz Buzz interview question.
-fileName: solving-the-fizzbuzz-problem-in-powershell.md
-images: ['/images/posts/FizzBuzz.png']
-menu:
-  sidebar:
-    name: Solving Fizzbuzz
-    identifier: solving-fizzbuzz
-    parent: 2018
-    weight: 10
+# images: ['/images/posts/FizzBuzz.png']
 ---
 
-{{< img src="/posts/2018/images/FizzBuzz.png" align="center" title="FizzBuzz">}}
+<!-- {{< img src="/posts/2018/images/FizzBuzz.png" align="center" title="FizzBuzz">}} -->
 
 ## Fizz Buzz in PowerShell
 

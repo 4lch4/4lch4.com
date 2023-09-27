@@ -1,16 +1,11 @@
 ---
 title: Don't Rebuild Your Docker Image Locally
-description: |
+summary: |
   Instead of rebuilding your Docker image every time you make a change, it's much faster to mount your local directory to the image and then restart it.
 # hero: images/Header-0.jpg
-hero: https://i.imgur.com/ljEMzRv.png
-date: '2021-10-05T10:58:18.000-05:00'
-menu:
-  sidebar:
-    name: Don't Rebuild Docker Locally
-    identifier: dont-rebuild-locally
-    parent: 2021
-    weight: 10
+# hero: https://i.imgur.com/ljEMzRv.png
+createdDate: '2021-10-05T10:58:18.000-05:00'
+publishedDate: '2021-10-05T10:58:18.000-05:00'
 ---
 
 A few weeks ago, I came across [this article][og-article] titled "You Don't Need to Rebuild Your Development Docker Image on Every Code Change." As I use Docker for most of my projects, this piqued my interest. The gist of it is, you can mount your local development directory to a Docker image instead of copying your source code to the image and building it.

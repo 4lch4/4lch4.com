@@ -6,18 +6,10 @@ summary: 'I recreated my homepage on the internet.'
 createdDate: '2022-12-15T13:25:12-06:00'
 modifiedDate: '2022-12-15T13:25:12-06:00'
 publishDate: '2022-12-15T13:25:12-06:00'
-author: 4lch4
-slug: new-4lch4.com
 tags:
   - Blog
   - Hugo
   - Websites
-menu:
-  sidebar:
-    name: My New 4lch4.com Website
-    identifier: new-4lch4.com
-    parent: 2022
-    weight: 10
 ---
 
 ## The What

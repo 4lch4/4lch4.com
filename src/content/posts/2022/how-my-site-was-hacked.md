@@ -1,25 +1,17 @@
 ---
 title: How My Website Was Hacked
 summary: 'How someone took over my unused domain name w/ GitHub Pages.'
-images:
-  - https://assets.4lch4.cloud/projects/blog/4lch4.social/Hacker-Man-0.jpeg
+# images:
+#   - https://assets.4lch4.cloud/projects/blog/4lch4.social/Hacker-Man-0.jpeg
 createdDate: '2022-02-01T09:55:00-06:00'
 modifiedDate: '2022-07-25T12:05:31-06:00'
-publishDate: '2022-02-14T14:54:12-06:00'
-author: 4lch4
-slug: how-my-website-was-hacked
+publishedDate: '2022-02-14T14:54:12-06:00'
 tags:
   - GitHub-Pages
   - Websites
   - Hacked
   - OSINT
   - Website-Defacers
-menu:
-  sidebar:
-    name: How My Website Was Hacked
-    identifier: how-my-website-was-hacked
-    parent: 2022
-    weight: 20
 ---
 
 I recently learned that one of my websites was "hacked". This blog post is my way of putting all the information in one place, sharing it with the world, and hopefully prevent this from happening to others. Or at the very least, if it _does_ happen to you, maybe this will help you get it back and find out how they did it.
