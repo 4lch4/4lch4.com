@@ -1,7 +1,24 @@
 {
-  "name": "astro",
+  "name": "4lch4.com",
+  "displayName": "4lch4.com",
+  "description": "The personal website of 4lch4.",
   "type": "module",
   "version": "0.0.1",
+  "homepage": "https://github.com/4lch4/4lch4.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/4lch4/4lch4.com.git"
+  },
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "bugs": {
+    "email": "bugs@4lch4.email",
+    "url": "https://github.com/4lch4/4lch4/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
