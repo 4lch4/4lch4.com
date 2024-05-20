@@ -1,6 +1,7 @@
 ---
 title: '@4lch4/koa-oto'
-publishDate: 2023-09-22 00:00:00
+img: /assets/img/Koa.png
+startDate: 2023-09-22 00:00:00
 repo: https://github.com/4lch4/Koa-Oto
 description: A wrapper for handling responses in Koa.js.
 tags:
@@ -34,4 +35,3 @@ app.listen(3000, () => {
   console.log('Server is running on port 3000')
 })
 ```
-

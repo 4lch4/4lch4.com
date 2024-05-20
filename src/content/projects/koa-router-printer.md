@@ -1,6 +1,7 @@
 ---
 title: '@4lch4/koa-router-printer'
-publishDate: 2023-09-22 00:00:00
+img: /assets/img/Koa.png
+startDate: 2023-09-22 00:00:00
 repo: https://github.com/4lch4/Koa-Router-Printer
 description: A small library to print the routes added to a Koa App/Router.
 tags:
