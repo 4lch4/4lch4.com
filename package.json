@@ -1,34 +1,40 @@
 {
   "name": "4lch4.com",
   "displayName": "4lch4.com",
-  "description": "The personal website of 4lch4.",
-  "type": "module",
   "version": "0.0.1",
+  "description": "The personal website of 4lch4.",
   "homepage": "https://github.com/4lch4/4lch4.com",
+  "bugs": {
+    "url": "https://github.com/4lch4/4lch4.com/issues",
+    "email": "bugs@4lch4.email"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com/4lch4/4lch4.com.git"
   },
+  "license": "MIT",
   "author": {
     "name": "4lch4",
     "email": "hey@4lch4.email",
     "url": "https://4lch4.com"
   },
-  "bugs": {
-    "email": "bugs@4lch4.email",
-    "url": "https://github.com/4lch4/4lch4/issues"
-  },
-  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "astro": "astro",
     "build": "astro build",
+    "dev": "astro dev",
     "preview": "astro preview",
-    "astro": "astro"
+    "start": "astro dev"
   },
   "dependencies": {
     "@astrojs/mdx": "^1.1.0",
     "@astrojs/sitemap": "^3.0.0",
-    "astro": "^3.1.1"
+    "astro": "^3.6.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-packagejson": "^2.5.0"
   }
 }
