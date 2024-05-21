@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets'
 
 interface Props {
 	project: CollectionEntry<'projects'>;
@@ -9,14 +10,13 @@ const { data, slug } = Astro.props.project;
 
 if (!data.img || data.img === '/img/') {
 	data.img = '/assets/img/Project-Placeholder-1.png'
-	// data.img_alt = 'An AI generated image of "a rack of futuristic looking servers in a data center."'
-	data.img_alt = 'A placeholder image containing my usual avatar sitting in front of a computer.'
+	data.img_alt = 'A placeholder containing my usual avatar sitting in front of a computer.'
 }
 ---
 
 <a class="card" href={`/projects/${slug}`}>
 	<span class="title">{data.title}</span>
-	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
+	<Image src={data.img || ''} alt={data.img_alt || ''} loading="eager" height="350" width="600" />
 </a>
 
 <style>
