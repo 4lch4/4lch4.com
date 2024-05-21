@@ -20,7 +20,7 @@ export const collections = {
 			startDate: z.coerce.date(),
 			endDate: z.coerce.date().optional(),
 			status: z.enum(['Active', 'Maintenance', 'Archived']).nullable().optional(),
-			tags: z.array(z.string()),
+			tags: z.array(z.string()).max(5).optional(),
 			img: z.string().optional(),
 			img_alt: z.string().optional(),
 			repo: z.string().optional(),
