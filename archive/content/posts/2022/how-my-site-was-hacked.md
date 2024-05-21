@@ -80,10 +80,8 @@ After opening a ticket, I got a reply within a few hours from a bot that verifie
 [5]: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
 [6]: https://en.wikipedia.org/wiki/Web_page
 [7]: https://en.wikipedia.org/wiki/Website
-
 [Culprit-Gone]: https://assets.4lch4.cloud/projects/blog/4lch4.social/Culprit-Gone.png
 [4lch4.social-Hacked-0]: https://assets.4lch4.cloud/projects/blog/4lch4.social/4lch4.social-Hacked-0.png
 [4lch4.social-Hacked-1]: https://assets.4lch4.cloud/projects/blog/4lch4.social/4lch4.social-Hacked-1.png
-
 [XKCD-Comic-Img]: https://imgs.xkcd.com/comics/cia.png
 [XKCD-Comic-URL]: https://xkcd.com/932/

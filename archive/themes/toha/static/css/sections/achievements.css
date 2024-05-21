@@ -2,10 +2,10 @@
   padding-top: 0.5rem;
 }
 
-.achievements-section h1 > span{
-  margin-top: -55px;  /* Size of fixed header */
-  padding-bottom:55px; 
-  display: block; 
+.achievements-section h1 > span {
+  margin-top: -55px; /* Size of fixed header */
+  padding-bottom: 55px;
+  display: block;
 }
 
 #gallery .achievement-entry {

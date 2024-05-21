@@ -50,8 +50,8 @@ Printer(app)
 If you use the module as shown above with no custom options, a table like so will be displayed:
 
 ```text
-jisodl0 at macx-382fq05p in ~/Development/alcha/playground/krp-tester 
-$ ts-node src/index.ts         
+jisodl0 at macx-382fq05p in ~/Development/alcha/playground/krp-tester
+$ ts-node src/index.ts
 
 ┌───────────────┬───────────┐
 │ Path          │ Method(s) │
@@ -70,14 +70,14 @@ Printer(app, {
   displayHead: true,
 
   // Display the prefix in the Path column.
-  displayPath: true
+  displayPath: true,
 })
 ```
 
 Results in:
 
 ```text
-jisodl0 at macx-382fq05p in ~/Development/alcha/playground/krp-tester 
+jisodl0 at macx-382fq05p in ~/Development/alcha/playground/krp-tester
 $ ts-node src/index.ts
 
 ┌───────────────┬─────────────┐

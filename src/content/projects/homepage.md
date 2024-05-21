@@ -3,8 +3,8 @@ title: Homepage
 description: My homepage on the internet.
 startDate: 2022-06-23
 status: Active
-# img: 
-# img_alt: 
+# img:
+# img_alt:
 repo: https://github.com/4lch4/4lch4.com
 tags:
   - Websites

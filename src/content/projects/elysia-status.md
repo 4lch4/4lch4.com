@@ -16,4 +16,3 @@ tags:
 A plugin for the [Elysia framework][0] that provides status endpoints for the APIs health.
 
 [0]: https://elysiajs.com
-

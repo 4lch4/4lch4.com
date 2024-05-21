@@ -1,12 +1,11 @@
-{{ with .commento }}
-    {{ $serverURL   := .serverURL }}
-    {{ $autoInit    := .autoInit | default "true"}}
-    {{ $hideDeleted := .hideDeleted | default "false"}}
+{{ with .commento }} {{ $serverURL := .serverURL }} {{ $autoInit := .autoInit | default "true"}} {{
+$hideDeleted := .hideDeleted | default "false"}}
 
-    <script defer
-    src="http://{{ $serverURL }}/js/commento.js"
-    data-auto-init="{{ $autoInit }}"
-    data-hide-deleted="{{ $hideDeleted }}"
-    ></script>
-    <div id="commento"></div>
+<script
+  defer
+  src="http://{{ $serverURL }}/js/commento.js"
+  data-auto-init="{{ $autoInit }}"
+  data-hide-deleted="{{ $hideDeleted }}"
+></script>
+<div id="commento"></div>
 {{ end }}

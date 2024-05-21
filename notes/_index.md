@@ -5,5 +5,3 @@ This directory is where I'll story any and all notes related to the development 
 ## /now
 
 https://sive.rs/nowff
-
-

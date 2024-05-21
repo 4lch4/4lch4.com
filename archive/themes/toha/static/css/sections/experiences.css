@@ -6,10 +6,10 @@
   margin-top: 1.5rem !important;
 }
 
-.experiences-section h1 > span{
-  margin-top: -55px;  /* Size of fixed header */
-  padding-bottom:55px; 
-  display: block; 
+.experiences-section h1 > span {
+  margin-top: -55px; /* Size of fixed header */
+  padding-bottom: 55px;
+  display: block;
 }
 
 .experiences-section ul {
@@ -39,7 +39,7 @@
 }
 
 .timeline .vertical-line::after {
-  content: "";
+  content: '';
   position: absolute;
   border-left: 3px solid #248aaa;
   z-index: 1;

@@ -19,7 +19,7 @@ import Skills from '../components/Skills.astro'
 
 // Content Fetching: List four most recent projects that are not archived
 const projects = (await getCollection('projects'))
-  .filter((project) => project.data.status !== 'Archived')
+  .filter(project => project.data.status !== 'Archived')
   .sort((a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf())
   .slice(0, 4)
 ---
@@ -39,7 +39,13 @@ const projects = (await getCollection('projects'))
           </div>
         </Hero>
 
-        <Image alt="4lch4's Avatar" loading="eager" src="/assets/img/Avatar-1.png" width="480" height="620" />
+        <Image
+          alt="4lch4's Avatar"
+          loading="eager"
+          src="/assets/img/Avatar-1.png"
+          width="480"
+          height="620"
+        />
       </header>
 
       <Skills />

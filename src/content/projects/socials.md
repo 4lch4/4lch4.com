@@ -4,8 +4,8 @@ description: A linktree-like page for all of my social media accounts.
 startDate: 2022-03-24
 endDate: 2024-04-24
 status: Archived
-# img: 
-# img_alt: 
+# img:
+# img_alt:
 repo: https://github.com/4lch4/4lch4.social
 tags:
   - Websites
@@ -21,4 +21,3 @@ Just like with my [4lch4.blog][0] website, this website was used before I conden
 
 [0]: /projects/website/blog
 [1]: /projects/website/homepage
-

@@ -88,10 +88,10 @@ Video by [Rahul Sharma](https://www.pexels.com/@rahul-sharma-493988) from [Pexel
 
 ```markdown
 > Remove the backslashes when actually using.
-\{\{< gist hossainemruz 4ad86c9b6378677e14eff12713e75e44 >\}\}
+> \{\{< gist hossainemruz 4ad86c9b6378677e14eff12713e75e44 >\}\}
 ```
-<!-- <br/> -->
----
+
+## <!-- <br/> -->
 
 ## Demo
 
@@ -142,7 +142,7 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
     <code>:speak_no_evil:</code>
   </span>
 </p>
-<br>
+<br />
 ```
 
 <p>
