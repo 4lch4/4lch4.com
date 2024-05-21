@@ -4,8 +4,8 @@ description: A GitHub Action that prunes stale branches from a repository based 
 startDate: 2024-05-20 16:10:07
 endDate: 2024-05-20 16:10:07
 status: Active
-img: 
-img_alt: 
+# img:
+# img_alt:
 repo: https://github.com/4lch4/prune-stale-branches-action
 tags:
   - TypeScript

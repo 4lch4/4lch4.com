@@ -4,8 +4,8 @@ description: A small CLI tool for finding any directories that contain a git rep
 startDate: 2024-05-20 16:02:48
 endDate: 2024-05-20 16:02:48
 status: Active
-img: 
-img_alt: 
+# img:
+# img_alt:
 repo: https://github.com/4lch4/git-finder
 tags:
   - TypeScript

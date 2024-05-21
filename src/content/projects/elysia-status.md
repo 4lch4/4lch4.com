@@ -4,8 +4,8 @@ description: A plugin for the Elysia framework that provides status endpoints fo
 startDate: 2024-05-20 16:01:50
 endDate: 2024-05-20 16:01:50
 status: Active
-img: 
-img_alt: 
+# img: 
+# img_alt:
 repo: https://github.com/4lch4/Elysia-Status
 tags:
   - TypeScript
