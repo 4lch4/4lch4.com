@@ -4,7 +4,7 @@ description: A library of tools for use in my Node.js projects.
 startDate: 2024-05-20 16:08:35
 status: Active
 img: /assets/img/NodeJS-Mascot.svg
-img_alt: An image of the Node.js mascot.
+img_alt: The Node.js mascot.
 repo: https://github.com/4lch4/Backpack
 tags:
   - TypeScript
