@@ -18,6 +18,7 @@ import Skills from '../components/Skills.astro'
 
 // Content Fetching: List four most recent projects
 const projects = (await getCollection('projects'))
+  .filter((project) => project.data.status !== 'Archived')
   .sort((a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf())
   .slice(0, 4)
 ---
