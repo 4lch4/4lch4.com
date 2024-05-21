@@ -1,8 +1,7 @@
 ---
 title: Elysia Status
-description: A plugin for the Elysia framework that provides status endpoints for the APIs health.
-startDate: 2024-05-20 16:01:50
-endDate: 2024-05-20 16:01:50
+description: A plugin for the Elysia framework.
+startDate: 2023-11-15 00:27:00
 status: Active
 # img: 
 # img_alt:

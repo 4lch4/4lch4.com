@@ -1,9 +1,10 @@
 ---
 title: '@4lch4/logger'
-img: /assets/img/NodeJS-Mascot.svg
-startDate: 2023-09-22 00:00:00
-repo: https://github.com/4lch4/Logger
 description: A simple logger for Node.js & TypeScript.
+startDate: 2021-03-15 05:01:00
+status: Active
+img: /assets/img/NodeJS-Mascot.svg
+repo: https://github.com/4lch4/Logger
 tags:
   - Node
   - TypeScript

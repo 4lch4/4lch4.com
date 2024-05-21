@@ -1,8 +1,7 @@
 ---
 title: Prune Stale Branches Action
-description: A GitHub Action that prunes stale branches from a repository based on the given configuration.
+description: A GitHub Action for pruning stale branches in a repository.
 startDate: 2024-05-20 16:10:07
-endDate: 2024-05-20 16:10:07
 status: Active
 # img:
 # img_alt:

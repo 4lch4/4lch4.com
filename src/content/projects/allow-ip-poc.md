@@ -2,7 +2,6 @@
 title: Allow IP PoC
 description: A PoC script to automatically manage the GitHub IP Allow List.
 startDate: 2023-07-05
-endDate: 2023-07-19
 status: Maintenance
 # img: 
 # img_alt: 

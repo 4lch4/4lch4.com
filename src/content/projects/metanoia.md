@@ -1,9 +1,9 @@
 ---
 title: Metanoia
 description: A library for converting IP addresses to Battle.net regions.
-startDate: 2024-05-20 16:05:52
-endDate: 2024-05-20 16:05:52
-status: Active
+startDate: 2017-11-07 03:25:00
+endDate: 2022-08-02 00:00:00
+status: Archived
 # img: 
 # img_alt: 
 repo: https://github.com/4lch4/Metanoia

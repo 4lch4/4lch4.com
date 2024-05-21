@@ -1,7 +1,8 @@
 ---
 title: Enigilo
-description: An extension for VSCode that helps insert and manage links in Markdown files.
+description: A Visual Studio Code extension.
 startDate: 2018-08-12 23:51:00
+status: Active
 # img:
 # img_alt:
 repo: https://github.com/4lch4/Enigilo

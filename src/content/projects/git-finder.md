@@ -1,7 +1,7 @@
 ---
 title: Git Finder
 description: A small CLI tool for finding any directories that contain a git repository.
-startDate: 2024-05-20 16:02:48
+startDate: 2021-03-20 13:12:00
 endDate: 2024-05-20 16:02:48
 status: Active
 # img:

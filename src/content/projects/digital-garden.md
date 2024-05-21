@@ -1,10 +1,8 @@
 ---
 title: Digital Garden
-description: |
-  A digital garden, knowledge base, collection of TILs, whatever you wanna call
-  it. It's where I store the tidbits of knowledge I've gathered over the years.
+description: A collection of notes and thoughts.
 startDate: 2021-05-09 01:48:00
-endDate: 2022-06-17 11:24:00
+status: Active
 # img:
 # img_alt:
 repo: https://github.com/4lch4/Digital-Garden
@@ -13,4 +11,4 @@ tags:
   - TypeScript
 ---
 
-My Digital Garden.
+What's a Digital Garden and why do I have one? Well, I stumbled upon an article that discussed "Learning in Public" and how to use a Digital Garden to cultivate learning over time.
