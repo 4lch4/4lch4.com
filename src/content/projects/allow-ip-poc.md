@@ -3,8 +3,8 @@ title: Allow IP PoC
 description: A PoC script to automatically manage the GitHub IP Allow List.
 startDate: 2023-07-05
 status: Maintenance
-# img: 
-# img_alt: 
+img: /assets/img/GitHub-Logo-White.svg
+img_alt: The GitHub logo.
 repo: https://github.com/4lch4/Allow-IP-PoC
 tags:
   - GitHub

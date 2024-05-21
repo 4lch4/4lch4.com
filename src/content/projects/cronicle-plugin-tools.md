@@ -3,8 +3,8 @@ title: Cronicle Plugin Tools
 description: A library of tools for use with Cronicle Plugins.
 startDate: 2022-03-03 17:58:00
 status: Active
-# img:
-# img_alt:
+img: /assets/img/Cronicle-Logo.png
+img_alt: The Cronicle logo.
 repo: https://github.com/4lch4/Cronicle-Plugin-Tools
 tags:
   - TypeScript

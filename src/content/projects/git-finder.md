@@ -4,8 +4,8 @@ description: A small CLI tool for finding any directories that contain a git rep
 startDate: 2021-03-20 13:12:00
 endDate: 2024-05-20 16:02:48
 status: Active
-# img:
-# img_alt:
+img: /assets/img/Git-Logo-2Color.svg
+img_alt: The Cronicle logo.
 repo: https://github.com/4lch4/git-finder
 tags:
   - TypeScript

@@ -4,6 +4,7 @@ description: A simple logger for Node.js & TypeScript.
 startDate: 2021-03-15 05:01:00
 status: Active
 img: /assets/img/NodeJS-Mascot.svg
+img_alt: An image of the Node.js mascot.
 repo: https://github.com/4lch4/Logger
 tags:
   - Node

@@ -4,8 +4,8 @@ description: A wrapper library for interacting with the Toggl API.
 startDate: 2024-05-20 16:12:31
 endDate: 2024-05-20 16:12:31
 status: Active
-# img:
-# img_alt:
+img: /assets/img/Toggl-Logo-Stacked-Pink.svg
+img_alt: The Toggl Track logo.
 repo: https://github.com/4lch4/Toggl-Aid
 tags:
   - TypeScript

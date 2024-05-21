@@ -4,8 +4,8 @@ description: A library for converting IP addresses to Battle.net regions.
 startDate: 2017-11-07 03:25:00
 endDate: 2022-08-02 00:00:00
 status: Archived
-# img: 
-# img_alt: 
+img: /assets/img/Battle.net-Icon.svg
+img_alt: The Battle.net logo.
 repo: https://github.com/4lch4/Metanoia
 tags:
   - JavaScript

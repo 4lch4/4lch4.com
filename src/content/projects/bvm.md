@@ -3,8 +3,8 @@ title: Bun Version Manager
 description: An nvm-like tool for the Bun runtime.
 startDate: 2023-12-08 01:32:00
 status: Active
-# img:
-# img_alt:
+img: /assets/img/Bun-Logo.svg
+img_alt: An image of the Bun logo.
 repo: https://github.com/4lch4/bvm
 tags:
   - CLI

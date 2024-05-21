@@ -4,8 +4,8 @@ description: A simple library of helper functions for use with Axios.
 startDate: 2020-05-15 15:56:00
 endDate: 2024-05-20 19:44:00
 status: Archived
-# img:
-# img_alt:
+img: /assets/img/Axios-Logo.svg
+img_alt: The Battle.net logo.
 repo: https://github.com/4lch4/Axios-Aid
 tags:
   - TypeScript
