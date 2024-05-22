@@ -39,9 +39,9 @@ import Pill from '../components/Pill.astro'
           <p>
             After getting my degree I moved to Benicia, CA and worked at
             <a href="https://www.sapien.com/" target="_blank">SAPIEN Technologies, Inc.</a> as a
-            <strong>Jr. Software Test Engineer</strong> for a couple years before moving back to
-            Arkansas to be closer to family. I then did freelance work, followed by a 4 years in a
-            variety of positions at <a href="https://www.jbhunt.com/" target="_blank">J.B. Hunt</a>.
+            <strong>Jr. Software Test Engineer</strong> for a couple years before moving back to Arkansas
+            to be closer to family. I then did freelance work, followed by a 4 years in a variety of
+            positions at <a href="https://www.jbhunt.com/" target="_blank">J.B. Hunt</a>.
           </p>
           <br />
           <p>
@@ -50,10 +50,12 @@ import Pill from '../components/Pill.astro'
             <strong>DevOps Engineer/Consultant</strong>. While there I worked with clients to help
             them with their DevOps practices and tooling. This also included things such as
             migrating from one CICD solution to another, such as
-            <a href="https://azure.microsoft.com/en-us/products/devops" target="_blank">Azure DevOps</a>
+            <a href="https://azure.microsoft.com/en-us/products/devops" target="_blank"
+              >Azure DevOps</a
+            >
             to <a href="github.com/enterprise" target="_blank">GitHub Enterprise</a>. I also worked
-            on the <a href="https://openo11y.dev" target="_blank">Open O11y project</a> by
-            developing <a href="https://opentelemetry.io" target="_blank">OpenTelemetry</a>
+            on the <a href="https://openo11y.dev" target="_blank">Open O11y project</a> by developing
+            <a href="https://opentelemetry.io" target="_blank">OpenTelemetry</a>
             collectors for GitHub & <a href="https://gitlab.com" target="_blank">GitLab</a>,
             allowing users to gather & send telemetry data related to their repositories and
             build/release pipelines to a backend of their choice.
@@ -63,12 +65,59 @@ import Pill from '../components/Pill.astro'
       <section>
         <h2 class="section-title">Education</h2>
         <div class="content">
-          <p><strong>University of Arkansas at Fort Smith</strong> (<a href="https://uafs.edu" target="_blank">uafs.edu</a>)</p>
+          <p>
+            <strong>University of Arkansas at Fort Smith</strong> (<a
+              href="https://uafs.edu"
+              target="_blank">uafs.edu</a
+            >)
+          </p>
           <p>B.S. Information Technology — Programming</p>
           <p>2011 — 2015</p>
         </div>
       </section>
+
+      <section>
+        <h2 class="section-title">Contact Info</h2>
+        <div>
+          <div class="contacts">
+            <p><i class="fa-solid fa-envelope"></i><a href="mailto:hey@4lch4.email" target="_blank">hey@4lch4.email</a></p>
+            <p><i class="fa-brands fa-github"></i><a href="https://github.com/4lch4" target="_blank">github.com/4lch4</a></p>
+            <p><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/4lch4" target="_blank">twitter.com/4lch4</a></p>
+          </div>
+
+          <div class="contacts">
+            <p><i class="fa-brands fa-discord"></i><a href="https://discord.gg/z7HkTVmgyR" target="_blank">@4lch4</a></p>
+            <p><i class="fa-brands fa-linkedin"></i><a href="https://linkedin.com/in/4lch4" target="_blank">linkedin.com/in/4lch4</a></p>
+            <p><i class="fa-brands fa-telegram"></i><a href="https://t.me/dleaman" target="_blank">t.me/dleaman</a></p>
+          </div>
+
+          <div class="contacts">
+            <!-- https://dev.to/4lch4 -->
+            <p><i class="fa-brands fa-dev"></i><a href="https://dev.to/4lch4" target="_blank">dev.to/4lch4</a></p>
+
+            <!-- https://steamcommunity.com/id/4lch4 -->
+            <p><i class="fa-brands fa-steam"></i><a href="https://steamcommunity.com/id/4lch4" target="_blank">@4lch4</a></p>
+
+            <!-- https://facebook.com/4lch4 -->
+            <p><i class="fa-brands fa-facebook"></i><a href="https://facebook.com/4lch4" target="_blank">facebook.com/4lch4</a></p>
+          </div>
+
+          <!-- <div class="contacts">
+            <p><i class="fa-brands fa-discord"></i><a href="https://discord.gg/z7HkTVmgyR" target="_blank">@4lch4</a></p>
+            <p><i class="fa-brands fa-telegram"></i><a href="https://t.me/dleaman" target="_blank">@4lch4</a></p>
+          </div> -->
+        </div>
+      </section>
+
       <!-- <section>
+        <h2 class="section-title">Contact Info Beta</h2>
+        <div class="contacts">
+          <Pill><i class="fa-solid fa-mail"></i> E-Mail: <a href="mailto:hey@4lch4.email" target="_blank">hey@4lch4.email</a></Pill>
+          <Pill><i class="fa-solid fa-brain"></i> Nerd/Weeb</Pill>
+          <Pill><i class="fa-solid fa-person"></i> Some Dude</Pill>
+        </div>
+      </section>
+      <section>
 				<h2 class="section-title">Skills</h2>
 					<div class="skills">
 						<Pill><Icon icon="bug" size="1.33em" /> Developer</Pill>
@@ -90,6 +139,30 @@ import Pill from '../components/Pill.astro'
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
+  }
+
+  .contacts {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 0.5rem; */
+  }
+
+  .contacts p {
+    padding: 1rem;
+    /* width:; */
+    /* margin-right: 1rem;
+    margin-top: 1rem; */
+
+    margin: 0.5rem;
+
+    border: 1px solid var(--gray-800);
+    border-radius: 1.5rem;
+    /* border-left: 1px solid var(--gray-800);
+    border-right: 1px solid var(--gray-800); */
+  }
+
+  .contacts i {
+    margin-right: 0.5rem;
   }
 
   img {
