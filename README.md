@@ -5,6 +5,8 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2F4lch4.com&style=flat-square&label=4lch4.com)
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
+<img height="433" width="564" src="./public/assets/img/Avatar-1.png"></img>
+
 # 4lch4.com
 
 This repository is home to the codebase for my personal website/homepage, [4lch4.com][0].
