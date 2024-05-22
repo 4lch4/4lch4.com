@@ -1,7 +1,8 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'
 import { Image } from 'astro:assets'
 
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { AvatarPath } from '../components/Constants'
 import ContactCTA from '../components/ContactCTA.astro'
 import Hero from '../components/Hero.astro'
 import Icon from '../components/Icon.astro'
@@ -14,7 +15,7 @@ import Pill from '../components/Pill.astro'
       <Hero
         title="About"
         tagline="I'm just some dude who likes making and fixing things, but you can learn more than that below.">
-        <Image src="/assets/img/Avatar-1.png" alt="4lch4's Standard Avatar" width="500" height="500" />
+        <Image src={AvatarPath} alt="4lch4's Standard Avatar" width="500" height="500" />
       </Hero>
 
       <section>

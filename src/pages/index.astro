@@ -16,6 +16,7 @@ import PortfolioPreview from '../components/PortfolioPreview.astro'
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro'
 import Skills from '../components/Skills.astro'
+import { AvatarPath } from '../components/Constants'
 
 // Content Fetching: List four most recent projects that are not archived
 const projects = (await getCollection('projects'))
@@ -42,7 +43,7 @@ const projects = (await getCollection('projects'))
         <Image
           alt="4lch4's Avatar"
           loading="eager"
-          src="/assets/img/Avatar-1.png"
+          src={AvatarPath}
           width="480"
           height="620"
         />
