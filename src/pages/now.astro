@@ -1,0 +1,182 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import ContactCTA from '../components/ContactCTA.astro'
+
+const LastUpdatedDate = new Date('2024-05-22T09:54:00')
+const FormattedDate = LastUpdatedDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  // hour: 'numeric',
+  // minute: 'numeric',
+  // timeZoneName: 'short',
+})
+
+// const LastUpdatedLocation = 'my home in Van Buren, Arkansas'
+---
+
+<BaseLayout title="Now | What'm I Up To?" description="What I'm up to these days">
+  <div class="stack gap-20">
+    <main class="wrapper now">
+      <div class="hero stack gap-2 center">
+        <h1 class="title">What'm I Doing Lately?</h1>
+        <p class="tagline">
+          (This is a <a href="https://nownownow.com/about" target="_blank">now page</a>. If you have
+          your own site, you should make one, too!)
+        </p>
+
+        <p class="updated">
+          Last updated on
+          <strong><time datetime={LastUpdatedDate.toISOString()}>{FormattedDate}</time></strong>
+          from my home in Van Buren, AR.
+        </p>
+      </div>
+
+      <section class="manual entries">
+        <h2 class="section-title">New Horizons</h2>
+        <p class="content">
+          Unfortunately, as of April 1, 2024, I'm no longer working at
+          <a href="https://liatrio.com" target="_blank">Liatrio</a> and have been doing freelance work
+          while I look for my next full-time role.
+
+          <br />
+          <br />
+
+          If you check out my <a href="/about/" target="_blank">about page</a> and know of any opportunities
+          that might be a good fit for someone like myself, please reach out! All of my public contact
+          <!-- information is available on my <a href="/about/" target="_blank">about page</a>. -->
+          information is also available on my about page.
+          <!-- 
+          <br />
+          <br />
+
+          All of my contact information is available on my
+          <a href="/about/" target="_blank">about page</a>. -->
+        </p>
+      </section>
+
+      <section class="automated entries">
+        <h2 class="section-title">Automated Entries</h2>
+        <p class="content">
+          This section will contain automatically generated data, such as content from my GitHub
+          profile, Twitter, etc.
+        </p>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  .now {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin: 1.5rem auto auto auto;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .entries > .section-title {
+    border-top: 1px solid var(--gray-800);
+    padding-top: 2rem;
+  }
+
+  /* .manual > .section-title {
+    border-top: 1px solid var(--gray-800);
+    padding-top: 3rem;
+  }
+
+  .automated > .section-title {
+    border-top: 1px solid var(--gray-800);
+    padding-top: 3rem;
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  } */
+
+  .hero {
+    font-size: var(--text-lg);
+    text-align: center;
+  }
+
+  .tagline {
+    /* max-width: 50ch; */
+    font-style: italic;
+    margin: 1em auto;
+    margin-inline: auto;
+    font-size: var(--text-sm);
+  }
+
+  .updated {
+    font-size: var(--text-md);
+    color: var(--gray-200);
+  }
+
+  .title {
+    font-size: var(--text-3xl);
+    color: var(--gray-0);
+  }
+
+  @media (min-width: 50em) {
+    .hero {
+      font-size: var(--text-xl);
+    }
+
+    .start {
+      text-align: start;
+    }
+
+    .start .title,
+    .start .tagline {
+      margin-inline: unset;
+    }
+
+    .title {
+      font-size: var(--text-5xl);
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>
