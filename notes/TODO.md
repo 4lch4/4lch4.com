@@ -2,6 +2,14 @@
 
 This file is where I'll track the various things I want/need to do for my website.
 
+## Now Page
+
+I found the idea of a "now page" from [Derek Sivers](https://sivers.org/now) via HackerNews today (_2024-05-22 @ 10:34:59_) and want to add it to the website.
+
+## About/Contact
+
+I want to add a section to my **About** page that contains a few links/details to my various social media accounts and how to contact me.
+
 ## Projects
 
 The following table contains the projects that I want to add to the website:
