@@ -6,6 +6,7 @@ node_modules
 .trash
 .git
 dist
+archive
 
 # Files
 .env
