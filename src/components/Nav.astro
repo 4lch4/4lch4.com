@@ -2,6 +2,7 @@
 import Icon from './Icon.astro'
 import ThemeToggle from './ThemeToggle.astro'
 import type { iconPaths } from './IconPaths'
+import {SocialMediaLinks} from './Constants'
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
@@ -12,15 +13,15 @@ const textLinks: { label: string; href: string }[] = [
 ]
 
 /** Icon links to social media — edit these with links to your profiles! */
-const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-  { label: 'Twitter', href: 'https://twitter.com/4lch4', icon: 'twitter-logo' },
-  { label: 'GitHub', href: 'https://github.com/4lch4', icon: 'github-logo' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/4lch4', icon: 'linkedin-logo' },
-  // { label: 'Twitch', href: 'https://twitch.tv/4lch4', icon: 'twitch-logo' },
-  // { label: 'CodePen', href: 'https://codepen.io/me', icon: 'codepen-logo' },
-  // { label: 'dribbble', href: 'https://dribbble.com/me', icon: 'dribbble-logo' },
-  // { label: 'YouTube', href: 'https://www.youtube.com/@me/', icon: 'youtube-logo' },
-]
+// const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
+//   { label: 'Twitter', href: 'https://twitter.com/4lch4', icon: 'twitter-logo' },
+//   { label: 'GitHub', href: 'https://github.com/4lch4', icon: 'github-logo' },
+//   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/4lch4', icon: 'linkedin-logo' },
+//   // { label: 'Twitch', href: 'https://twitch.tv/4lch4', icon: 'twitch-logo' },
+//   // { label: 'CodePen', href: 'https://codepen.io/me', icon: 'codepen-logo' },
+//   // { label: 'dribbble', href: 'https://dribbble.com/me', icon: 'dribbble-logo' },
+//   // { label: 'YouTube', href: 'https://www.youtube.com/@me/', icon: 'youtube-logo' },
+// ]
 ---
 
 <nav>
@@ -65,10 +66,10 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
     <div class="menu-footer">
       <div class="socials">
         {
-          iconLinks.map(({ href, icon, label }) => (
+          SocialMediaLinks.map(({ href, icon, label }) => (
             <a href={href} class="social">
               <span class="sr-only">{label}</span>
-              <Icon icon={icon} />
+              <i class={icon}></i>
             </a>
           ))
         }
@@ -100,10 +101,10 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
     <div class="menu-footer">
       <div class="socials">
         {
-          iconLinks.map(({ href, icon, label }) => (
+          SocialMediaLinks.map(({ href, icon, label }) => (
             <a href={href} class="social">
               <span class="sr-only">{label}</span>
-              <Icon icon={icon} />
+              <i class={icon}></i>
             </a>
           ))
         }
