@@ -24,7 +24,7 @@ The following list details the various components/tools that were used to create
    1. The template started off with some weird method of storing the icons as an SVG string in an object which was then used to render the icons.
    2. This method was beyond annoying to work with and so I replaced it with FontAwesome icons.
 4. It's deployed and hosted by [Vercel][5].
-   1. Originally I was going to deploy it using GitHub Pages but I wanted to get access to the features provided by Vercel.
+   1. Originally I was going to deploy it using GitHub Pages but I wanted to get access to the features (speed-insights, analytics, etc.) provided by Vercel.
 
 [0]: https://4lch4.com
 [1]: https://github.com/withastro/astro/tree/latest/examples/portfolio
