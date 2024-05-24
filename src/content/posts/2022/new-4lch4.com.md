@@ -1,8 +1,6 @@
 ---
 title: My New 4lch4.com Website
-summary: 'I recreated my homepage on the internet.'
-# images:
-#   - https://assets.4lch4.cloud/projects/blog/4lch4.social/Hacker-Man-0.jpeg
+summary: I recreated my homepage on the internet.
 createdDate: '2022-12-15T13:25:12-06:00'
 modifiedDate: '2022-12-15T13:25:12-06:00'
 publishDate: '2022-12-15T13:25:12-06:00'
@@ -38,4 +36,4 @@ Because of two main reasons:
 
 [0]: https://gohugo.io
 [1]: https://github.com/hugo-toha/toha
-[2]: https://git.4lch4.io/4lch4/Toha-Theme
+[2]: https://github.com/4lch4/Toha-Theme
