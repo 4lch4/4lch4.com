@@ -1,9 +1,8 @@
 ---
 title: Don't Rebuild Your Docker Image Locally
 summary: |
-  Instead of rebuilding your Docker image every time you make a change, it's much faster to mount your local directory to the image and then restart it.
-# hero: images/Header-0.jpg
-# hero: https://i.imgur.com/ljEMzRv.png
+  Instead of rebuilding your Docker image every time you make a change, it's much faster to mount
+  your local directory to the image and then restart it.
 createdDate: '2021-10-05T10:58:18.000-05:00'
 publishedDate: '2021-10-05T10:58:18.000-05:00'
 ---
@@ -184,8 +183,9 @@ The source, in this case, is the current directory since this command is run fro
 
 The target is where Docker will mount your files within the container. If you remember, in our Dockerfile, we use `WORKDIR /usr/src/app`, so we want to make sure our code/directory is mounted to the exact location. Because of this, we set the target value to `/usr/src/app`, so don't forget to make sure this lines up with your Dockerfile.
 
-If you have any questions or suggestions, please don't hesitate to reach out! You can find me on several sites, all of which I link to on my [socials site][socials-site].
+If you have any questions or suggestions, please don't hesitate to reach out! You can find me on several sites, all of which I link to in [the about page][0] of my [homepage][1].
 
-[og-article]: https://vsupalov.com/rebuilding-docker-image-development/
+[og-article]: https://vsupalov.com/rebuilding-docker-image-development
 [ansel-repo]: https://github.com/4lch4/Ansel
-[socials-site]: https://4lch4.social
+[0]: https://4lch4.com/about
+[1]: https://4lch4.com

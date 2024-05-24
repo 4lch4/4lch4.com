@@ -6,17 +6,6 @@ tags: ['PowerShell', 'PowerShell-Profile', 'Tips', 'Enhancements']
 summary: A few tips to help make your PowerShell console "unique" in its own right.
 ---
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [PowerShell Profile Basics](#powershell-profile-basics)
-- [What're We Trying to Achieve?](#whatre-we-trying-to-achieve)
-  - [To-Do](#to-do)
-- [Where Do We Start?](#where-do-we-start)
-- [Customizing the Title/Prompt](#customizing-the-titleprompt)
-- [Getting The Weather](#getting-the-weather)
-- [Conclusion](#conclusion)
-
 ## PowerShell Profile Basics
 
 It's important to point out that knowledge of PowerShell profiles, while helpful ahead of time, isn't absolutely required to read this article and potentially gain some value. If you do wish to get some information ahead of time, I highly recommend taking a look at [this blog post][0] by [The Scripting Guys'][1] Ed Wilson.
@@ -72,7 +61,7 @@ Now that I've got my title the way I want it, on to the rest. Next, Sean mention
 "PS $($executionContext.SessionState.Path.CurrentLocation)$('>' * ($nestedPromptLevel + 1)) "
 ```
 
-Bingo! Now we can take care of the 3rd item on our [To-Do](#To-Do) list: `Add the current directory to the end of the current shell line` To do this, we need to get the current working directory, which is available a number of ways. We can either use the `$PWD` variable which stores the current variable, or we can use the [Get-Location][8] cmdlet, which is what we'll be doing.
+Bingo! Now we can take care of the 3rd item on our To-Do list: `Add the current directory to the end of the current shell line` To do this, we need to get the current working directory, which is available a number of ways. We can either use the `$PWD` variable which stores the current variable, or we can use the [Get-Location][8] cmdlet, which is what we'll be doing.
 
 `Get-Location` by default returns the entire current path, but we're only interested in the last portion of it, so we can get that part by using the [Split-Path][9] cmdlet:
 
@@ -138,6 +127,6 @@ I hope this wasn't too painful of a read, I did my best to only cover the intere
 [9]: https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Split-Path?view=powershell-6
 [10]: https://openweathermap.org/
 [11]: https://openweathermap.org/appid
-[12]: https://github.com/obs0lete/Get-Weather
+[12]: https://github.com/obs0lete/Scripts/blob/master/Get-Weather.ps1
 [13]: https://home.openweathermap.org/api_keys
-[14]: https://gist.github.com/Alcha/f08a83486f7d064be9d4f73300a33872
+[14]: https://gist.github.com/4lch4/9c265b5ebbae04704ee56b6c32201305

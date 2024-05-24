@@ -1,13 +1,14 @@
 ---
 title: Solving the FizzBuzz Problem in PowerShell
-publishedDate: '2018-08-07'
-createdDate: '2018-08-07'
-tags: ['PowerShell', 'Tips', 'Interviews', 'FizzBuzz']
+publishedDate: 2018-08-07
+createdDate: 2018-08-07
 summary: A simple solution to the standard Fizz Buzz interview question.
-# images: ['/images/posts/FizzBuzz.png']
+tags:
+  - PowerShell
+  - Tips
+  - Interviews
+  - FizzBuzz
 ---
-
-<!-- {{< img src="/posts/2018/images/FizzBuzz.png" align="center" title="FizzBuzz">}} -->
 
 ## Fizz Buzz in PowerShell
 
@@ -108,7 +109,7 @@ for ($x = 1; $x -le 100; $x++) {
 
 At this point, we have a working solution to the Fizz Buzz problem written in PowerShell. If you were to copy and paste it into a terminal you'd get something that looks like this:
 
-![FizzBuzz.ps1_Output][14]
+![FizzBuzz.ps1_Output][11]
 
 ## Finally, A Script!
 
@@ -123,7 +124,7 @@ param (
 )
 ```
 
-Since I was initially writing this script for the [sample programs][15] repository I contribute to, I knew I wanted to support more than going from 1 to 100. Instead, I wanted users to be able to provide a minimum and maximum parameter that would let them modify the output. This simply means adding two parameters to the `param ()` field like so:
+Since I was initially writing this script for the [sample programs][12] repository I contribute to, I knew I wanted to support more than going from 1 to 100. Instead, I wanted users to be able to provide a minimum and maximum parameter that would let them modify the output. This simply means adding two parameters to the `param ()` field like so:
 
 ```powershell
 param (
@@ -135,7 +136,7 @@ param (
 )
 ```
 
-The `Mandatory` and `Position` attributes tell PowerShell that the parameters have default values and that they aren't mandatory, and the position attribute makes it possible to do something like `.\FizzBuzz.ps1 0 75` to adjust the min and max without having to specify the parameter names. Then, with some minor changes to the `for` loop, we have our [finished result][16]!
+The `Mandatory` and `Position` attributes tell PowerShell that the parameters have default values and that they aren't mandatory, and the position attribute makes it possible to do something like `.\FizzBuzz.ps1 0 75` to adjust the min and max without having to specify the parameter names. Then, with some minor changes to the `for` loop, we have our [finished result][13]!
 
 ```powershell
 <#
@@ -214,9 +215,6 @@ for ($X = $Min; $X -le $Max; $X++) {
 [8]: https://en.wikipedia.org/wiki/Fizz_buzz
 [9]: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-6#long-description
 [10]: https://www.youtube.com/watch?v=QPZ0pIK_wsc
-[11]: https://i.imgur.com/s4thCiM.png
-[12]: https://unsplash.com/photos/IuLgi9PWETU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-[13]: https://unsplash.com/search/photos/start?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-[14]: https://i.imgur.com/tC2pfXg.png
-[15]: https://github.com/jrg94/sample-programs
-[16]: https://github.com/jrg94/sample-programs/blob/master/archive/p/powershell/FizzBuzz.ps1
+[11]: https://i.imgur.com/tC2pfXg.png
+[12]: https://github.com/jrg94/sample-programs
+[13]: https://github.com/jrg94/sample-programs/blob/master/archive/p/powershell/FizzBuzz.ps1
