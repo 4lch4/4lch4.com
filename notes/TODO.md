@@ -2,6 +2,27 @@
 
 This file is where I'll track the various things I want/need to do for my website.
 
+## Broken Links
+
+I added Linkspector as a GitHub Actions Workflow to find broken links and they generated the following report, I need to go through and fix these:
+
+- [x] 🚫 src/content/posts/2022/new-4lch4.com.md, https://assets.4lch4.cloud/projects/blog/4lch4.social/Hacker-Man-0.jpeg , null, 5, net::ERR_NAME_NOT_RESOLVED at https://assets.4lch4.cloud/projects/blog/4lch4.social/Hacker-Man-0.jpeg
+- [x] 🚫 src/content/posts/2022/new-4lch4.com.md, https://git.4lch4.io/4lch4/Toha-Theme , null, 41, net::ERR_NAME_NOT_RESOLVED at https://git.4lch4.io/4lch4/Toha-Theme
+- [x] 🚫 src/content/posts/2022/how-my-site-was-hacked.md, https://assets.4lch4.cloud/projects/blog/4lch4.social/Hacker-Man-0.jpeg , null, 5, net::ERR_NAME_NOT_RESOLVED at https://assets.4lch4.cloud/projects/blog/4lch4.social/Hacker-Man-0.jpeg
+- [x] 🚫 src/content/posts/2022/how-my-site-was-hacked.md, https://github.com/CYBERANONYMOUS1 , 404, 70, null
+- [x] 🚫 src/content/posts/2022/how-my-site-was-hacked.md, https://github.com/CYBERANONYMOUS1/didi , 404, 71, null
+- [x] 🚫 src/content/posts/2022/how-my-site-was-hacked.md, https://assets.4lch4.cloud/projects/blog/4lch4.social/Culprit-Gone.png , null, 75, net::ERR_NAME_NOT_RESOLVED at https://assets.4lch4.cloud/projects/blog/4lch4.social/Culprit-Gone.png
+- [x] 🚫 src/content/posts/2022/how-my-site-was-hacked.md, https://assets.4lch4.cloud/projects/blog/4lch4.social/4lch4.social-Hacked-0.png , null, 76, net::ERR_NAME_NOT_RESOLVED at https://assets.4lch4.cloud/projects/blog/4lch4.social/4lch4.social-Hacked-0.png
+- [x] 🚫 src/content/posts/2022/how-my-site-was-hacked.md, https://assets.4lch4.cloud/projects/blog/4lch4.social/4lch4.social-Hacked-1.png , null, 77, net::ERR_NAME_NOT_RESOLVED at https://assets.4lch4.cloud/projects/blog/4lch4.social/4lch4.social-Hacked-1.png
+- [ ] 🚫 src/content/posts/2021/dont-rebuild-docker-locally.md, https://4lch4.social , null, 191, net::ERR_NAME_NOT_RESOLVED at https://4lch4.social
+- [ ] 🚫 src/content/posts/2018/solving-the-fizzbuzz-problem-in-powershell.md, https://unsplash.com/photos/IuLgi9PWETU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText , 404, 218, null
+- [ ] 🚫 src/content/posts/2018/how-to-uniquify-your-powershell-console.md, #whatre-we-trying-to-achieve , 404, 13, Cannot find section: #whatre-we-trying-to-achieve in file: src/content/posts/2018/how-to-uniquify-your-powershell-console.md.
+- [ ] 🚫 src/content/posts/2018/how-to-uniquify-your-powershell-console.md, #where-do-we-start , 404, 15, Cannot find section: #where-do-we-start in file: src/content/posts/2018/how-to-uniquify-your-powershell-console.md.
+- [ ] 🚫 src/content/posts/2018/how-to-uniquify-your-powershell-console.md, #customizing-the-titleprompt , 404, 16, Cannot find section: #customizing-the-titleprompt in file: src/content/posts/2018/how-to-uniquify-your-powershell-console.md.
+- [ ] 🚫 src/content/posts/2018/how-to-uniquify-your-powershell-console.md, #To-Do , 404, 75, Cannot find section: #To-Do in file: src/content/posts/2018/how-to-uniquify-your-powershell-console.md.
+- [ ] 🚫 src/content/posts/2018/how-to-uniquify-your-powershell-console.md, https://github.com/obs0lete/Get-Weather , 404, 141, null
+- [ ] 🚫 src/content/posts/2018/how-to-uniquify-your-powershell-console.md, https://gist.github.com/Alcha/f08a83486f7d064be9d4f73300a33872 , 404, 143, null
+
 ## Now Page
 
 I found the idea of a "now page" from [Derek Sivers](https://sivers.org/now) via HackerNews today (_2024-05-22 @ 10:34:59_) and want to add it to the website.
