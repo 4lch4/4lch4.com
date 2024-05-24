@@ -19,5 +19,5 @@ Just like with my [4lch4.blog][0] website, this website was used before I conden
 
 > This repo is the home of my socials landing page, with links to my accounts/presence online. It's a simple website created with Hugo and the Bootstrap BP Hugo Startpage theme. Instead of using the theme as is, I've created a fork where I maintain it myself.
 
-[0]: /projects/website/blog
-[1]: /projects/website/homepage
+[0]: /projects/blog
+[1]: /projects/homepage
