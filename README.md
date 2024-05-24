@@ -1,4 +1,4 @@
-![GitHub deployments](https://img.shields.io/github/deployments/4lch4/4lch4.com/production?style=flat-square&logo=vercel&label=Vercel%20Deployment)
+![GitHub deployments](https://img.shields.io/github/deployments/4lch4/4lch4.com/production?style=flat-square&logo=vercel&label=Last%20Vercel%20Deployment)
 [![Uptime-Kuma-Status](https://uptime.4lch4.io/api/badge/1/status?style=flat-square)](https://uptime.4lch4.io/status/homepage)
 [![Uptime-Kuma-Uptime-Percentage](https://uptime.4lch4.io/api/badge/1/uptime?style=flat-square)](https://uptime.4lch4.io/status/homepage)
 [![Uptime-Kuma-Avg-Response-Time](https://uptime.4lch4.io/api/badge/1/avg-response?style=flat-square)](https://uptime.4lch4.io/status/homepage)
