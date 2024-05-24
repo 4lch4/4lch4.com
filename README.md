@@ -6,7 +6,7 @@
 [![Built-w/-Astro-Badge](https://img.shields.io/badge/Built%20with-Astro-blue?style=flat-square&logo=astro)](https://astro.build)
 [![Vercel-Badge](https://img.shields.io/badge/Hosted%20on-Vercel-blue?style=flat-square&logo=vercel)](https://vercel.com)
 
-<img height="433" width="564" src="./public/assets/img/Avatar-1.png"></img>
+<img height="433" width="564" src="./public/assets/img/Avatar-1.png" alt="The avatar image used everywhere by 4lch4 across. A chibi-esque drawing of himself drinking Monster."></img>
 
 # 4lch4.com
 
