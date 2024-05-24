@@ -18,7 +18,7 @@ const aboutEntries = (await getCollection('about')).sort((a, b) => a.data.index 
       <Hero
         title="About"
         tagline="I'm just some dude who likes making and fixing things, but you can learn more than that below.">
-        <Image src={AvatarPath} alt="4lch4's Standard Avatar" width="500" height="500" />
+        <Image src={AvatarPath} alt="4lch4's Standard Avatar" width="500" height="500" loading="eager" />
       </Hero>
 
       {
