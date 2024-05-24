@@ -1,9 +1,10 @@
-[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-energy-drinks.svg)](https://forthebadge.com)
+![GitHub deployments](https://img.shields.io/github/deployments/4lch4/4lch4.com/production?style=flat-square&logo=vercel&label=Vercel%20Deployment)
+[![Uptime-Kuma-Status](https://uptime.4lch4.io/api/badge/1/status?style=flat-square)](https://uptime.4lch4.io/status/homepage)
+[![Uptime-Kuma-Uptime-Percentage](https://uptime.4lch4.io/api/badge/1/uptime?style=flat-square)](https://uptime.4lch4.io/status/homepage)
+[![Uptime-Kuma-Avg-Response-Time](https://uptime.4lch4.io/api/badge/1/avg-response?style=flat-square)](https://uptime.4lch4.io/status/homepage)
 
-![GitHub deployments](https://img.shields.io/github/deployments/4lch4/4lch4.com/production?style=flat-square&logo=vercel&label=Vercel)
-![Website](https://img.shields.io/website?url=https%3A%2F%2F4lch4.com&style=flat-square&label=4lch4.com)
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
+[![Built-w/-Astro-Badge](https://img.shields.io/badge/Built%20with-Astro-blue?style=flat-square&logo=astro)](https://astro.build)
+[![Vercel-Badge](https://img.shields.io/badge/Hosted%20on-Vercel-blue?style=flat-square&logo=vercel)](https://vercel.com)
 
 <img height="433" width="564" src="./public/assets/img/Avatar-1.png"></img>
 
