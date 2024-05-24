@@ -39,4 +39,11 @@ export const collections = {
       tags: z.array(z.string()).optional(),
     }),
   }),
+
+  about: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      index: z.number(),
+    }),
+  })
 }
