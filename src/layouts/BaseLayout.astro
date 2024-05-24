@@ -1,8 +1,6 @@
 ---
-// Learn about using Astro layouts:
-// https://docs.astro.build/en/core-concepts/layouts/
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 
-// Component Imports
 import MainHead from '../components/MainHead.astro'
 import Nav from '../components/Nav.astro'
 import Footer from '../components/Footer.astro'
@@ -114,5 +112,7 @@ const { title, description } = Astro.props
         }
       }
     </style>
+
+    <SpeedInsights />
   </body>
 </html>
