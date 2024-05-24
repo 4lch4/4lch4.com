@@ -5,8 +5,6 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import { AvatarPath } from '../components/Constants'
 import ContactCTA from '../components/ContactCTA.astro'
 import Hero from '../components/Hero.astro'
-import Icon from '../components/Icon.astro'
-import Pill from '../components/Pill.astro'
 ---
 
 <BaseLayout title="About | 4lch4" description="About 4lch4/Devin W. Leaman">
@@ -19,7 +17,7 @@ import Pill from '../components/Pill.astro'
       </Hero>
 
       <section>
-        <h2 class="section-title">Background</h2>
+        <h2 class="section-title">Beginning</h2>
         <div class="content">
           <p>
             I started my journey into programming in 2009, when I was 14 and took a class on GIS in
@@ -28,41 +26,190 @@ import Pill from '../components/Pill.astro'
           </p>
           <br />
           <p>
-            I then went to the <a href="https://uafs.edu/" target="_blank"
-              >University of Arkansas at Fort Smith</a
-            >
+            I then went to the
+            <a href="https://uafs.edu" target="_blank">University of Arkansas at Fort Smith</a>
             and initially majored in <strong>Information Technology - Networking</strong>. After one
             year of that, I realized Networking was not for me so I switched to
             <strong>Information Technology - Programming</strong> and graduated in 2015.
           </p>
-          <br />
-          <p>
-            After getting my degree I moved to Benicia, CA and worked at
-            <a href="https://www.sapien.com/" target="_blank">SAPIEN Technologies, Inc.</a> as a
-            <strong>Jr. Software Test Engineer</strong> for a couple years before moving back to Arkansas
-            to be closer to family. I then did freelance work, followed by a 4 years in a variety of
-            positions at <a href="https://www.jbhunt.com/" target="_blank">J.B. Hunt</a>.
-          </p>
-          <br />
-          <p>
-            After J.B. Hunt, I joined a friend of mine over at
-            <a href="https://liatrio.com" target="_blank">Liatrio</a> as a
-            <strong>DevOps Engineer/Consultant</strong>. While there I worked with clients to help
-            them with their DevOps practices and tooling. This also included things such as
-            migrating from one CICD solution to another, such as
-            <a href="https://azure.microsoft.com/en-us/products/devops" target="_blank"
-              >Azure DevOps</a
-            >
-            to <a href="github.com/enterprise" target="_blank">GitHub Enterprise</a>. I also worked
-            on the <a href="https://openo11y.dev" target="_blank">Open O11y project</a> by developing
-            <a href="https://opentelemetry.io" target="_blank">OpenTelemetry</a>
-            collectors for GitHub & <a href="https://gitlab.com" target="_blank">GitLab</a>,
-            allowing users to gather & send telemetry data related to their repositories and
-            build/release pipelines to a backend of their choice.
-          </p>
         </div>
       </section>
       <section>
+        <h2 class="section-title">First Job</h2>
+
+        <div class="content">
+          <p>
+            After getting my degree I moved to Benicia, CA and worked at
+            <a href="https://www.sapien.com" target="_blank">SAPIEN Technologies, Inc.</a> as a
+            <strong>Jr. Software Test Engineer</strong> for a couple years. While there I was responsible
+            for testing all new builds of
+            <a href="https://www.sapien.com/software" target="_blank">our suite of products</a>, in
+            a variety of environments, converting the company iOS app to Android, and providing
+            support for customers via the forums & premium support tickets.
+          </p>
+
+          <br />
+
+          <p>
+            For example, for every new build of a product I would test our software on both 32 &
+            64-bit iterations of Windows 7, 8, 10. This was before I knew much about writing tests
+            so I performed these tests manually using a desktop with a hard drive for each OS.
+          </p>
+
+          <br />
+
+          <p>
+            Aside from testing software and providing support to customers, I also converted the
+            company's iOS app,
+            <a href="https://www.sapien.com/legacy/ipowershell" target="_blank">iPowerShell</a>, to
+            Android. This was my first Android app I'd ever built and I learned a boat load about
+            Java, Android, and the Android ecosystem.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">J.B. Hunt</h2>
+
+        <div class="content">
+          <p>
+            After working at SAPIEN for a few years I moved back to Arkansas to be closer to family
+            and started a job at
+            <a href="https://www.jbhunt.com" target="_blank">J.B. Hunt</a>. It's no exaggeration to
+            say I learned the most about everything involved with software development at an
+            enterprise level while I worked there.
+          </p>
+          <!-- I was a contract-to-hire
+            employee that worked the night shift (18:00 - 06:00) as a <strong>NOC Engineer</strong>
+            for just under a year before being hired on full-time. -->
+          <br />
+
+          <p>
+            I started as a contractor who worked the night shift (18:00 - 06:00) on Wednesday -
+            Friday/Saturday as a <strong>NOC Engineer</strong>. Because of how my shift was
+            scheduled I was the NOC Engineer on duty when we did our monthly release cycle. This
+            meant I was interfacing with all of our development teams on a regular basis to help
+            improve their deployment processes.
+          </p>
+
+          <br />
+
+          <p>
+            Because of my experience with
+            <a href="https://github.com/PowerShell/PowerShell" target="_blank">PowerShell</a>, and
+            the fact our <a href="https://jenkins.io" target="_blank">Jenkins</a> server lived off custom
+            built PowerShell scripts, I became the de facto Jenkins admin for any issues it had. This
+            was a great opportunity for me to learn more about Jenkins,
+            <a href="https://groovy-lang.org" target="_blank">Groovy</a>, and automation at scale in
+            general. While working overnight I would work directly with our overseas development
+            team to help with any issues they faced when deploying via Jenkins.
+          </p>
+
+          <br />
+
+          <p>
+            After being hired on full-time I was moved to a more standard day shift schedule,
+            working Monday - Friday (09:00 - 17:00) where I began to do more and more DevOps related
+            tasks. I was responsible for working with our CICD team to maintain Jenkins, write new
+            pipelines, and help with any issues that arose. I also worked with our development teams
+            to help them write better tests, improve their deployment processes, and automate
+            anything that could be automated.
+          </p>
+
+          <br />
+
+          <p>
+            To sum up, my time at J.B. Hunt was the greatest learning experience I've ever had, and
+            I'm grateful for all of the things I was responsible for and worked on while I was
+            there. The following provides highlights of my time while there:
+            <br />
+            <br />
+
+            <ul>
+              <li>
+                Maintaining the infrastructure for our installations of
+                <a href="dynatrace.com" target="_blank">Dynatrace</a> and
+                <a href="http://extrahop.com" target="_blank">ExtraHop</a>.
+              </li>
+              <ul>
+                <li>
+                  Dynatrace was hosted on a cluster of 3 primary servers with 10+ extra servers for
+                  various services.
+                </li>
+                <li>
+                  ExtraHop was hosted on a special beast of a machine that connected to over 50+
+                  "sensor" servers.
+                </li>
+              </ul>
+
+              <li>Working with the CICD team:</li>
+              <ul>
+                <li>
+                  Build pipelines in
+                  <a href="https://dev.azure.com" target="_blank">Azure DevOps</a>, as well as write
+                  custom scripts that would be used by all of the development teams during their
+                  deployment process.
+                </li>
+                <li>
+                  Maintained our installation of Jenkins, wrote new scripts for deploying to new
+                  systems.
+                </li>
+                <li>
+                  Maintained old scripts responsible for deploying legacy applications to legacy
+                  systems.
+                </li>
+              </ul>
+
+              <li>
+                Working with the SRE team to create a custom scorecard system for all of the
+                applications and services across the enterprise.
+              </li>
+              <ul>
+                <li>
+                  This was a collection of batch/cron jobs that would gather metrics and display
+                  them using PowerBI.
+                </li>
+                <li>
+                  I built it alongside a new member of the SRE team and then when it was complete I
+                  handed it off to them to maintain.
+                </li>
+                <ul>
+                  <li>
+                    I worked with that SRE team member for a couple months to ensure things
+                    transitioned smoothly before moving on to other tasks.
+                  </li>
+                </ul>
+              </ul>
+            </ul>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Liatrio</h2>
+
+        <div class="content">
+          <p>
+            After working for J.B. Hunt, I wanted something more DevOps focused instead of working
+            DevOps on the side. Thankfully, one of my previous coworkers at J.B. Hunt had moved to a
+            company called <a href="https://www.liatrio.com" target="_blank">Liatrio</a> and was able
+            to get me an interview. I was hired on as a <strong>DevOps Engineer/Consultant</strong> and
+            initially worked on the GitHub Practice team.
+          </p>
+
+          <br />
+
+          <p>
+            As part of the GitHub Practice team we were responsible for working with clients that
+            wanted to migrate to GitHub Enterprise from other platforms. This meant migrating entire
+            systems such as Azure DevOps, TargetProcess, etc., to GitHub Enterprise. We would also
+            help clients with their CICD pipelines, writing new pipelines, and helping them with any
+            issues they faced along the way.
+          </p>
+        </div>
+      </section>
+
+      <!-- <section>
         <h2 class="section-title">Education</h2>
         <div class="content">
           <p>
@@ -74,24 +221,27 @@ import Pill from '../components/Pill.astro'
           <p>B.S. Information Technology — Programming</p>
           <p>2011 — 2015</p>
         </div>
-      </section>
+      </section> -->
 
       <section>
-        <h2 class="section-title">Contact Info</h2>
+        <h2 class="section-title">Contacts</h2>
         <div>
           <div class="contacts">
             <p>
               <i class="fa-solid fa-envelope"></i><a href="mailto:hey@4lch4.email" target="_blank"
-                >hey@4lch4.email</a>
+                >hey@4lch4.email</a
+              >
             </p>
             <p>
               <i class="fa-brands fa-github"></i><a href="https://github.com/4lch4" target="_blank"
-                >github.com/4lch4</a>
+                >github.com/4lch4</a
+              >
             </p>
             <p>
               <i class="fa-brands fa-twitter"></i><a
                 href="https://twitter.com/4lch4"
-                target="_blank">twitter.com/4lch4</a>
+                target="_blank">twitter.com/4lch4</a
+              >
             </p>
           </div>
 
@@ -99,16 +249,19 @@ import Pill from '../components/Pill.astro'
             <p>
               <i class="fa-brands fa-discord"></i><a
                 href="https://discord.gg/z7HkTVmgyR"
-                target="_blank">@4lch4</a>
+                target="_blank">@4lch4</a
+              >
             </p>
             <p>
               <i class="fa-brands fa-linkedin"></i><a
                 href="https://linkedin.com/in/4lch4"
-                target="_blank">linkedin.com/in/4lch4</a>
+                target="_blank">linkedin.com/in/4lch4</a
+              >
             </p>
             <p>
               <i class="fa-brands fa-telegram"></i><a href="https://t.me/dleaman" target="_blank"
-                >t.me/dleaman</a>
+                >t.me/dleaman</a
+              >
             </p>
           </div>
 
@@ -116,21 +269,24 @@ import Pill from '../components/Pill.astro'
             <!-- https://dev.to/4lch4 -->
             <p>
               <i class="fa-brands fa-dev"></i><a href="https://dev.to/4lch4" target="_blank"
-                >dev.to/4lch4</a>
+                >dev.to/4lch4</a
+              >
             </p>
 
             <!-- https://steamcommunity.com/id/4lch4 -->
             <p>
               <i class="fa-brands fa-steam"></i><a
                 href="https://steamcommunity.com/id/4lch4"
-                target="_blank">@4lch4</a>
+                target="_blank">@4lch4</a
+              >
             </p>
 
             <!-- https://facebook.com/4lch4 -->
             <p>
               <i class="fa-brands fa-facebook"></i><a
                 href="https://facebook.com/4lch4"
-                target="_blank">facebook.com/4lch4</a>
+                target="_blank">facebook.com/4lch4</a
+              >
             </p>
           </div>
 
