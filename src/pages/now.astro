@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 import ContactCTA from '../components/ContactCTA.astro'
 
-const LastUpdatedDate = new Date('2024-05-22T09:54:00')
+const LastUpdatedDate = new Date('2024-10-27T12:00:00')
 const FormattedDate = LastUpdatedDate.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
@@ -27,10 +27,32 @@ const FormattedDate = LastUpdatedDate.toLocaleDateString('en-US', {
 
         <p class="updated">
           Last updated on
-          <strong><time datetime={LastUpdatedDate.toISOString()}>{FormattedDate}</time></strong>
-          from my home in Van Buren, AR.
+          <strong><time datetime={LastUpdatedDate.toISOString()}>{FormattedDate}</time></strong>.
         </p>
       </div>
+
+      <section class="manual entries">
+        <h2 class="section-title">Learning New Languages</h2>
+        <p class="content">
+          Lately I've been learning more about Python and Go, with Go being my favorite I've been
+          making a few of my own projects using it. My favorite source for learning so far has been
+          <a href="https://boot.dev">boot.dev</a>. It's a paid resource and it's worth every penny
+          I've spent on it.
+        </p>
+
+        <h2 class="section-title">Discord Bots</h2>
+        <p class="content">
+          Aside from learning Go and Python, I've gotten back in to creating Discord bots. I'm not sure
+          what it is about creating them that I love so much but I do.
+
+          <br/><br/>
+
+          My latest bot is <a href="https://github.com/4lch4/NARB">NARB</a>, which stands for
+          <b>N</b>ot <b>A</b>nother <b>R</b>eminder <b>B</b>ot. And the name kinda gives it away, it's
+          a simple bot that let's me schedule reminders that can be sent in any available channel
+          with various other settings.
+        </p>
+      </section>
 
       <section class="manual entries">
         <h2 class="section-title">New Horizons</h2>
